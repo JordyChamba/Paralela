@@ -51,8 +51,6 @@ build CMakeFiles/fractal-dll.dir/Debug/palette.cpp.obj: CXX_COMPILER__fractal-dl
   INCLUDES = -isystem C:/tools/vcpkg/installed/x64-mingw-dynamic/include
   OBJECT_DIR = CMakeFiles\fractal-dll.dir\Debug
   OBJECT_FILE_DIR = CMakeFiles\fractal-dll.dir\Debug
-  TARGET_COMPILE_PDB = CMakeFiles\fractal-dll.dir\Debug\
-  TARGET_PDB = Debug\libfractal-dll.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\fractal-dll.dir
 
 build CMakeFiles/fractal-dll.dir/Debug/fractal_simd.cpp.obj: CXX_COMPILER__fractal-dll_unscanned_Debug C$:/Users/JPeter/Desktop/Paralela/03.Fractal-dll/fractal_simd.cpp || cmake_object_order_depends_target_fractal-dll_DEBUG
@@ -63,8 +61,6 @@ build CMakeFiles/fractal-dll.dir/Debug/fractal_simd.cpp.obj: CXX_COMPILER__fract
   INCLUDES = -isystem C:/tools/vcpkg/installed/x64-mingw-dynamic/include
   OBJECT_DIR = CMakeFiles\fractal-dll.dir\Debug
   OBJECT_FILE_DIR = CMakeFiles\fractal-dll.dir\Debug
-  TARGET_COMPILE_PDB = CMakeFiles\fractal-dll.dir\Debug\
-  TARGET_PDB = Debug\libfractal-dll.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\fractal-dll.dir
 
 
@@ -84,10 +80,9 @@ build Debug/libfractal-dll.dll Debug/libfractal-dll.dll.a: CXX_SHARED_LIBRARY_LI
   POST_BUILD = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\JPeter\Desktop\Paralela\03.Fractal-dll\build && C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/tools/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Users/JPeter/Desktop/Paralela/03.Fractal-dll/build/Debug/libfractal-dll.dll -installedDir C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/bin -OutVariable out"
   PRE_LINK = cd .
   RESTAT = 1
-  TARGET_COMPILE_PDB = CMakeFiles\fractal-dll.dir\Debug\
   TARGET_FILE = Debug\libfractal-dll.dll
   TARGET_IMPLIB = Debug\libfractal-dll.dll.a
-  TARGET_PDB = Debug\libfractal-dll.pdb
+  TARGET_PDB = fractal-dll.dll.dbg
   TARGET_SUPPORT_DIR = CMakeFiles\fractal-dll.dir
 
 build fractal-dll$:Debug: phony Debug/libfractal-dll.dll

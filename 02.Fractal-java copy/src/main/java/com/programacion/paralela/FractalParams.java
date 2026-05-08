@@ -49,22 +49,4 @@ public class FractalParams {
             (0x418A1AFF),
             (0x377B0DFF),
             (0x2C6D00FF)};
-
-    public static final int[] colorRamp3 = {
-            (0xE0F7FFFF),
-            (0xC1E9FFFF),
-            (0xA3DBFFFF),
-            (0x85CDFFFF),
-            (0x67BFFFFF),
-            (0x49B1FFFF),
-            (0x2BA3FFFF),
-            (0x0D95FFFF),
-            (0x0087FFFF),
-            (0x006BFFFF),
-            (0x004FFFFF),
-            (0x0033FFFF),
-            (0x0017FFFF),
-            (0x0000FFFF),
-            (0x0000E0FF),
-            (0x0000C0FF)};
 }

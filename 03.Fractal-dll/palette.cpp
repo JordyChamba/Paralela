@@ -43,3 +43,21 @@ std::vector<uint32_t> color_ramp_2 = {
     bswap32(0x418A1AFF),
     bswap32(0x377B0DFF),
     bswap32(0x2C6D00FF)};
+
+std::vector<uint32_t> color_ramp_3 = {
+    bswap32(0xF5E0FFFF),
+    bswap32(0xE9C6FFFF),
+    bswap32(0xDDACFFFF),
+    bswap32(0xD192FFFF),
+    bswap32(0xC578FFFF),
+    bswap32(0xB95EFFFF),
+    bswap32(0xAD44FFFF),
+    bswap32(0xA12AFFFF),
+    bswap32(0x9510FFFF),
+    bswap32(0x8900FFFF),
+    bswap32(0x7F00F3FF),
+    bswap32(0x7500D7FF),
+    bswap32(0x6B00BBFF),
+    bswap32(0x61009FFF),
+    bswap32(0x570083FF),
+    bswap32(0x4D0067FF)};

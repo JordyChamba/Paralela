@@ -27,5 +27,6 @@
 
 extern std::vector<uint32_t> color_ramp;
 extern std::vector<uint32_t> color_ramp_2;
+extern std::vector<uint32_t> color_ramp_3;
 
 #endif 

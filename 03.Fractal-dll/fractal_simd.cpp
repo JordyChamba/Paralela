@@ -93,7 +93,7 @@ void julia_simd(double x_min, double y_min, double x_max, double y_max,
                     if (d[it] < max_iteraciones)
                     {
                         int color_index = (int)d[it] % PALETTE_SIZE;
-                        pixel_buffer[index] = color_ramp_2[color_index];
+                        pixel_buffer[index] = color_ramp_3[color_index];
                     }
                     else
                     {
