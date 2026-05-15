@@ -68,7 +68,7 @@ int main()
         }
     }
 
-    #pragma omp parallel
+    #pragma omp parallel num_threads(4)
     {
         int thread_id = omp_get_thread_num();
         int num_threads = omp_get_num_threads();
@@ -76,6 +76,15 @@ int main()
         for (int i = thread_id; i < num_elementos; i += 4) {
             
             fmt::println("thread_id {}, index={}", thread_id, i);
+        }
+    }
+
+    // Bucle paralelo con reducción
+    #pragma omp parallel 
+    {
+        while(true)
+        {
+
         }
     }
     return 0;
