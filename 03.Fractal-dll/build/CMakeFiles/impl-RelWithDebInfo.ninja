@@ -43,22 +43,22 @@ include CMakeFiles/common.ninja
 
 build cmake_object_order_depends_target_fractal-dll_RELWITHDEBINFO: phony || .
 
-build CMakeFiles/fractal-dll.dir/RelWithDebInfo/palette.cpp.obj: CXX_COMPILER__fractal-dll_unscanned_RelWithDebInfo C$:/Users/JPeter/Desktop/Paralela/03.Fractal-dll/palette.cpp || cmake_object_order_depends_target_fractal-dll_RELWITHDEBINFO
+build CMakeFiles/fractal-dll.dir/RelWithDebInfo/palette.cpp.obj: CXX_COMPILER__fractal-dll_unscanned_RelWithDebInfo C$:/Users/fing.labcom/Music/Paralela/03.Fractal-dll/palette.cpp || cmake_object_order_depends_target_fractal-dll_RELWITHDEBINFO
   CONFIG = RelWithDebInfo
   DEFINES = -DFMT_SHARED -Dfractal_dll_EXPORTS -DCMAKE_INTDIR=\"RelWithDebInfo\"
   DEP_FILE = CMakeFiles\fractal-dll.dir\RelWithDebInfo\palette.cpp.obj.d
   FLAGS = -mavx2 -O2 -g -DNDEBUG
-  INCLUDES = -isystem C:/tools/vcpkg/installed/x64-mingw-dynamic/include
+  INCLUDES = -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include
   OBJECT_DIR = CMakeFiles\fractal-dll.dir\RelWithDebInfo
   OBJECT_FILE_DIR = CMakeFiles\fractal-dll.dir\RelWithDebInfo
   TARGET_SUPPORT_DIR = CMakeFiles\fractal-dll.dir
 
-build CMakeFiles/fractal-dll.dir/RelWithDebInfo/fractal_simd.cpp.obj: CXX_COMPILER__fractal-dll_unscanned_RelWithDebInfo C$:/Users/JPeter/Desktop/Paralela/03.Fractal-dll/fractal_simd.cpp || cmake_object_order_depends_target_fractal-dll_RELWITHDEBINFO
+build CMakeFiles/fractal-dll.dir/RelWithDebInfo/fractal_simd.cpp.obj: CXX_COMPILER__fractal-dll_unscanned_RelWithDebInfo C$:/Users/fing.labcom/Music/Paralela/03.Fractal-dll/fractal_simd.cpp || cmake_object_order_depends_target_fractal-dll_RELWITHDEBINFO
   CONFIG = RelWithDebInfo
   DEFINES = -DFMT_SHARED -Dfractal_dll_EXPORTS -DCMAKE_INTDIR=\"RelWithDebInfo\"
   DEP_FILE = CMakeFiles\fractal-dll.dir\RelWithDebInfo\fractal_simd.cpp.obj.d
   FLAGS = -mavx2 -O2 -g -DNDEBUG
-  INCLUDES = -isystem C:/tools/vcpkg/installed/x64-mingw-dynamic/include
+  INCLUDES = -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include
   OBJECT_DIR = CMakeFiles\fractal-dll.dir\RelWithDebInfo
   OBJECT_FILE_DIR = CMakeFiles\fractal-dll.dir\RelWithDebInfo
   TARGET_SUPPORT_DIR = CMakeFiles\fractal-dll.dir
@@ -71,13 +71,13 @@ build CMakeFiles/fractal-dll.dir/RelWithDebInfo/fractal_simd.cpp.obj: CXX_COMPIL
 #############################################
 # Link the shared library RelWithDebInfo\libfractal-dll.dll
 
-build RelWithDebInfo/libfractal-dll.dll RelWithDebInfo/libfractal-dll.dll.a: CXX_SHARED_LIBRARY_LINKER__fractal-dll_RelWithDebInfo CMakeFiles/fractal-dll.dir/RelWithDebInfo/palette.cpp.obj CMakeFiles/fractal-dll.dir/RelWithDebInfo/fractal_simd.cpp.obj | C$:/tools/vcpkg/installed/x64-mingw-dynamic/lib/libfmt.dll.a
+build RelWithDebInfo/libfractal-dll.dll RelWithDebInfo/libfractal-dll.dll.a: CXX_SHARED_LIBRARY_LINKER__fractal-dll_RelWithDebInfo CMakeFiles/fractal-dll.dir/RelWithDebInfo/palette.cpp.obj CMakeFiles/fractal-dll.dir/RelWithDebInfo/fractal_simd.cpp.obj | C$:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/lib/libfmt.dll.a
   CONFIG = RelWithDebInfo
   LANGUAGE_COMPILE_FLAGS = -mavx2 -O2 -g -DNDEBUG
   LINK_FLAGS = -shared
-  LINK_LIBRARIES = C:/tools/vcpkg/installed/x64-mingw-dynamic/lib/libfmt.dll.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  LINK_LIBRARIES = C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/lib/libfmt.dll.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\fractal-dll.dir\RelWithDebInfo
-  POST_BUILD = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\JPeter\Desktop\Paralela\03.Fractal-dll\build && C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/tools/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Users/JPeter/Desktop/Paralela/03.Fractal-dll/build/RelWithDebInfo/libfractal-dll.dll -installedDir C:/tools/vcpkg/installed/x64-mingw-dynamic/bin -OutVariable out"
+  POST_BUILD = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\fing.labcom\Music\Paralela\03.Fractal-dll\build && C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/tools/vcpkg-2026.03.18/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Users/fing.labcom/Music/Paralela/03.Fractal-dll/build/RelWithDebInfo/libfractal-dll.dll -installedDir C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/bin -OutVariable out"
   PRE_LINK = cd .
   RESTAT = 1
   TARGET_FILE = RelWithDebInfo\libfractal-dll.dll
@@ -91,7 +91,7 @@ build libfractal-dll.dll$:RelWithDebInfo: phony RelWithDebInfo/libfractal-dll.dl
 
 
 #############################################
-# Folder: C:/Users/JPeter/Desktop/Paralela/03.Fractal-dll/build
+# Folder: C:/Users/fing.labcom/Music/Paralela/03.Fractal-dll/build
 
 build all$:RelWithDebInfo: phony RelWithDebInfo/libfractal-dll.dll
 

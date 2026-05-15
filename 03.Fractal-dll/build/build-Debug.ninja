@@ -12,7 +12,7 @@ build libfractal-dll.dll: phony Debug/libfractal-dll.dll
 
 
 #############################################
-# Folder: C:/Users/JPeter/Desktop/Paralela/03.Fractal-dll/build
+# Folder: C:/Users/fing.labcom/Music/Paralela/03.Fractal-dll/build
 
 build all: phony all$:Debug
 

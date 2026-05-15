@@ -43,22 +43,22 @@ include CMakeFiles/common.ninja
 
 build cmake_object_order_depends_target_fractal-dll_DEBUG: phony || .
 
-build CMakeFiles/fractal-dll.dir/Debug/palette.cpp.obj: CXX_COMPILER__fractal-dll_unscanned_Debug C$:/Users/JPeter/Desktop/Paralela/03.Fractal-dll/palette.cpp || cmake_object_order_depends_target_fractal-dll_DEBUG
+build CMakeFiles/fractal-dll.dir/Debug/palette.cpp.obj: CXX_COMPILER__fractal-dll_unscanned_Debug C$:/Users/fing.labcom/Music/Paralela/03.Fractal-dll/palette.cpp || cmake_object_order_depends_target_fractal-dll_DEBUG
   CONFIG = Debug
   DEFINES = -DFMT_SHARED -Dfractal_dll_EXPORTS -DCMAKE_INTDIR=\"Debug\"
   DEP_FILE = CMakeFiles\fractal-dll.dir\Debug\palette.cpp.obj.d
   FLAGS = -mavx2 -g
-  INCLUDES = -isystem C:/tools/vcpkg/installed/x64-mingw-dynamic/include
+  INCLUDES = -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include
   OBJECT_DIR = CMakeFiles\fractal-dll.dir\Debug
   OBJECT_FILE_DIR = CMakeFiles\fractal-dll.dir\Debug
   TARGET_SUPPORT_DIR = CMakeFiles\fractal-dll.dir
 
-build CMakeFiles/fractal-dll.dir/Debug/fractal_simd.cpp.obj: CXX_COMPILER__fractal-dll_unscanned_Debug C$:/Users/JPeter/Desktop/Paralela/03.Fractal-dll/fractal_simd.cpp || cmake_object_order_depends_target_fractal-dll_DEBUG
+build CMakeFiles/fractal-dll.dir/Debug/fractal_simd.cpp.obj: CXX_COMPILER__fractal-dll_unscanned_Debug C$:/Users/fing.labcom/Music/Paralela/03.Fractal-dll/fractal_simd.cpp || cmake_object_order_depends_target_fractal-dll_DEBUG
   CONFIG = Debug
   DEFINES = -DFMT_SHARED -Dfractal_dll_EXPORTS -DCMAKE_INTDIR=\"Debug\"
   DEP_FILE = CMakeFiles\fractal-dll.dir\Debug\fractal_simd.cpp.obj.d
   FLAGS = -mavx2 -g
-  INCLUDES = -isystem C:/tools/vcpkg/installed/x64-mingw-dynamic/include
+  INCLUDES = -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include
   OBJECT_DIR = CMakeFiles\fractal-dll.dir\Debug
   OBJECT_FILE_DIR = CMakeFiles\fractal-dll.dir\Debug
   TARGET_SUPPORT_DIR = CMakeFiles\fractal-dll.dir
@@ -71,13 +71,13 @@ build CMakeFiles/fractal-dll.dir/Debug/fractal_simd.cpp.obj: CXX_COMPILER__fract
 #############################################
 # Link the shared library Debug\libfractal-dll.dll
 
-build Debug/libfractal-dll.dll Debug/libfractal-dll.dll.a: CXX_SHARED_LIBRARY_LINKER__fractal-dll_Debug CMakeFiles/fractal-dll.dir/Debug/palette.cpp.obj CMakeFiles/fractal-dll.dir/Debug/fractal_simd.cpp.obj | C$:/tools/vcpkg/installed/x64-mingw-dynamic/debug/lib/libfmtd.dll.a
+build Debug/libfractal-dll.dll Debug/libfractal-dll.dll.a: CXX_SHARED_LIBRARY_LINKER__fractal-dll_Debug CMakeFiles/fractal-dll.dir/Debug/palette.cpp.obj CMakeFiles/fractal-dll.dir/Debug/fractal_simd.cpp.obj | C$:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/debug/lib/libfmtd.dll.a
   CONFIG = Debug
   LANGUAGE_COMPILE_FLAGS = -mavx2 -g
   LINK_FLAGS = -shared
-  LINK_LIBRARIES = C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/lib/libfmtd.dll.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  LINK_LIBRARIES = C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/debug/lib/libfmtd.dll.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\fractal-dll.dir\Debug
-  POST_BUILD = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\JPeter\Desktop\Paralela\03.Fractal-dll\build && C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/tools/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Users/JPeter/Desktop/Paralela/03.Fractal-dll/build/Debug/libfractal-dll.dll -installedDir C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/bin -OutVariable out"
+  POST_BUILD = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\fing.labcom\Music\Paralela\03.Fractal-dll\build && C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/tools/vcpkg-2026.03.18/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Users/fing.labcom/Music/Paralela/03.Fractal-dll/build/Debug/libfractal-dll.dll -installedDir C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/debug/bin -OutVariable out"
   PRE_LINK = cd .
   RESTAT = 1
   TARGET_FILE = Debug\libfractal-dll.dll
@@ -91,7 +91,7 @@ build libfractal-dll.dll$:Debug: phony Debug/libfractal-dll.dll
 
 
 #############################################
-# Folder: C:/Users/JPeter/Desktop/Paralela/03.Fractal-dll/build
+# Folder: C:/Users/fing.labcom/Music/Paralela/03.Fractal-dll/build
 
 build all$:Debug: phony Debug/libfractal-dll.dll
 

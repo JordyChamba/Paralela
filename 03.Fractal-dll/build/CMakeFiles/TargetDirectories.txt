@@ -1,3 +1,3 @@
-C:/Users/JPeter/Desktop/Paralela/03.Fractal-dll/build/CMakeFiles/fractal-dll.dir
-C:/Users/JPeter/Desktop/Paralela/03.Fractal-dll/build/CMakeFiles/edit_cache.dir
-C:/Users/JPeter/Desktop/Paralela/03.Fractal-dll/build/CMakeFiles/rebuild_cache.dir
+C:/Users/fing.labcom/Music/Paralela/03.Fractal-dll/build/CMakeFiles/fractal-dll.dir
+C:/Users/fing.labcom/Music/Paralela/03.Fractal-dll/build/CMakeFiles/edit_cache.dir
+C:/Users/fing.labcom/Music/Paralela/03.Fractal-dll/build/CMakeFiles/rebuild_cache.dir
