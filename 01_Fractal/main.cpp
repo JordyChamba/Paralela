@@ -153,6 +153,8 @@ int main()
                     r_type = runtime_type::OPENMP_FOR_SIMD;
                     break;
                 }
+
+                std::memset(pixel_buffer, 0, WIDTH * HEIGHT * sizeof(uint32_t)); // limpiar el buffer de pixeles
             }
 
             std::cout << "Max iteraciones: " << max_iteraciones << std::endl;

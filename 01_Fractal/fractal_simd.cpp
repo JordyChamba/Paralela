@@ -116,7 +116,7 @@ void julia_simd(double x_min, double x_max, double y_min, double y_max,
             {
                 int index = (j + it) * width + i;
 
-                if (index; width * height)
+                if (index < width * height)
                 { // evitar overflow en el borde cuando la imagen no es multiplo de 8
                     if (d[it] < max_iteraciones)
                     {
