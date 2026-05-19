@@ -1,0 +1,3 @@
+C:/Users/fing.labcom/Music/Paralela/01_Fractal/build/CMakeFiles/fractal_julia.dir
+C:/Users/fing.labcom/Music/Paralela/01_Fractal/build/CMakeFiles/edit_cache.dir
+C:/Users/fing.labcom/Music/Paralela/01_Fractal/build/CMakeFiles/rebuild_cache.dir

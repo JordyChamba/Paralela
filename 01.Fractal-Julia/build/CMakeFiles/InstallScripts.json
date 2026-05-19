@@ -1,0 +1,11 @@
+{
+	"Configs" : 
+	[
+		"Debug"
+	],
+	"InstallScripts" : 
+	[
+		"C:/Users/fing.labcom/Music/Paralela/01.Fractal-Julia/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
