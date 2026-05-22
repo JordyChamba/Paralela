@@ -1,0 +1,7 @@
+# ninja log v7
+44	461	8011643075017441	CMakeFiles/ejemplo-openmp.dir/Debug/main.cpp.obj	9c2eead6b86ddd60
+462	1273	8011643079203647	Debug/ejemplo-openmp.exe	a3541df0d858f56e
+20	389	8011650215333285	CMakeFiles/ejemplo-openmp.dir/Debug/main.cpp.obj	9c2eead6b86ddd60
+389	956	8011650219024415	Debug/ejemplo-openmp.exe	a3541df0d858f56e
+4	398	8011677301306112	CMakeFiles/ejemplo-openmp.dir/Debug/main.cpp.obj	9c2eead6b86ddd60
+398	964	8011677305245555	Debug/ejemplo-openmp.exe	a3541df0d858f56e

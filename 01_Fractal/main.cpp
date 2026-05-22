@@ -97,7 +97,7 @@ int main()
     // text.setPosition({10.f, 10.f});
     // text.setStyle(sf::Text::Bold);
 
-    std::string options = "Options: [1] Serial 1, [2] Serial 2 [3] SIMD [4] OpenMP Regiones [5] OpenMP For [6] OpenMP For+SIMD\n "
+    std::string options = "Options: [1] Serial 1, [2] Serial 2, [3] SIMD, [4] OpenMP Regiones, [5] OpenMP For, [6] OpenMP For+SIMD\n "
                           "Up/Down: Increase/Decrease iterations";
     sf ::Text textOptions(font, options, 24);
     textOptions.setFillColor(sf::Color::White);

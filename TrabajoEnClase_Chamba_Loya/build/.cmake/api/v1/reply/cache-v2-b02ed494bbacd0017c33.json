@@ -43,7 +43,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/fing.labcom/Music/Paralela/04.Ejemplo-OpenMP/build"
+			"value" : "c:/Users/fing.labcom/Music/Paralela/ejemplo03/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -575,7 +575,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/fing.labcom/Music/Paralela/04.Ejemplo-OpenMP/build/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/fing.labcom/Music/Paralela/ejemplo03/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -647,7 +647,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/fing.labcom/Music/Paralela/04.Ejemplo-OpenMP"
+			"value" : "C:/Users/fing.labcom/Music/Paralela/ejemplo03"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1331,7 +1331,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/fing.labcom/Music/Paralela/04.Ejemplo-OpenMP/build"
+			"value" : "C:/Users/fing.labcom/Music/Paralela/ejemplo03/build"
 		},
 		{
 			"name" : "EjemploOpenMP_IS_TOP_LEVEL",
@@ -1355,7 +1355,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/fing.labcom/Music/Paralela/04.Ejemplo-OpenMP"
+			"value" : "C:/Users/fing.labcom/Music/Paralela/ejemplo03"
 		},
 		{
 			"name" : "VCPKG_APPLOCAL_DEPS",

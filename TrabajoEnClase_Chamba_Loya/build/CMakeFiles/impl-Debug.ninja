@@ -43,7 +43,7 @@ include CMakeFiles/common.ninja
 
 build cmake_object_order_depends_target_ejemplo-openmp_DEBUG: phony || .
 
-build CMakeFiles/ejemplo-openmp.dir/Debug/main.cpp.obj: CXX_COMPILER__ejemplo-openmp_unscanned_Debug C$:/Users/fing.labcom/Music/Paralela/04.Ejemplo-OpenMP/main.cpp || cmake_object_order_depends_target_ejemplo-openmp_DEBUG
+build CMakeFiles/ejemplo-openmp.dir/Debug/main.cpp.obj: CXX_COMPILER__ejemplo-openmp_unscanned_Debug C$:/Users/fing.labcom/Music/Paralela/ejemplo03/main.cpp || cmake_object_order_depends_target_ejemplo-openmp_DEBUG
   CONFIG = Debug
   DEFINES = -DFMT_SHARED -DCMAKE_INTDIR=\"Debug\"
   DEP_FILE = CMakeFiles\ejemplo-openmp.dir\Debug\main.cpp.obj.d
@@ -51,6 +51,8 @@ build CMakeFiles/ejemplo-openmp.dir/Debug/main.cpp.obj: CXX_COMPILER__ejemplo-op
   INCLUDES = -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include
   OBJECT_DIR = CMakeFiles\ejemplo-openmp.dir\Debug
   OBJECT_FILE_DIR = CMakeFiles\ejemplo-openmp.dir\Debug
+  TARGET_COMPILE_PDB = CMakeFiles\ejemplo-openmp.dir\Debug\
+  TARGET_PDB = Debug\ejemplo-openmp.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\ejemplo-openmp.dir
 
 
@@ -66,11 +68,12 @@ build Debug/ejemplo-openmp.exe: CXX_EXECUTABLE_LINKER__ejemplo-openmp_Debug CMak
   FLAGS = -fopenmp -g
   LINK_LIBRARIES = C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/debug/lib/libfmtd.dll.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\ejemplo-openmp.dir\Debug
-  POST_BUILD = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\fing.labcom\Music\Paralela\04.Ejemplo-OpenMP\build && C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/tools/vcpkg-2026.03.18/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Users/fing.labcom/Music/Paralela/04.Ejemplo-OpenMP/build/Debug/ejemplo-openmp.exe -installedDir C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/debug/bin -OutVariable out"
+  POST_BUILD = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\fing.labcom\Music\Paralela\ejemplo03\build && C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/tools/vcpkg-2026.03.18/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Users/fing.labcom/Music/Paralela/ejemplo03/build/Debug/ejemplo-openmp.exe -installedDir C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/debug/bin -OutVariable out"
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\ejemplo-openmp.dir\Debug\
   TARGET_FILE = Debug\ejemplo-openmp.exe
   TARGET_IMPLIB = Debug\libejemplo-openmp.dll.a
-  TARGET_PDB = ejemplo-openmp.exe.dbg
+  TARGET_PDB = Debug\ejemplo-openmp.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\ejemplo-openmp.dir
 
 build ejemplo-openmp.exe$:Debug: phony Debug/ejemplo-openmp.exe
@@ -79,7 +82,7 @@ build ejemplo-openmp$:Debug: phony Debug/ejemplo-openmp.exe
 
 
 #############################################
-# Folder: C:/Users/fing.labcom/Music/Paralela/04.Ejemplo-OpenMP/build
+# Folder: C:/Users/fing.labcom/Music/Paralela/ejemplo03/build
 
 build all$:Debug: phony Debug/ejemplo-openmp.exe
 
