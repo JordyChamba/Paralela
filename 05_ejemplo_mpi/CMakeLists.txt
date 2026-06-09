@@ -1,3 +1,7 @@
+# "C:\oneAPI\mpi\2021.18\bin\mpiexec.exe" -n 8 ejemplo_mpi.exe
+# "C:\oneAPI\mpi\2021.18\bin\mpiexec.exe" -n 8 ejemplo_mpi_V2.exe
+
+
 cmake_minimum_required(VERSION 3.16)
 
 project(ejemploMPI)
