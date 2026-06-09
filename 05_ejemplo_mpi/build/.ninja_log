@@ -1,14 +1,14 @@
 # ninja log v7
 11	1971	8027323852610471	CMakeFiles/ejemplo_mpi.dir/Debug/main.cpp.obj	985c61084dbe445d
 17	2343	8027323852610471	CMakeFiles/ejemplo_mpi.dir/Debug/matrices.cpp.obj	26bed8f404928839
-5	398	8027460782805790	CMakeFiles/impl-Debug.ninja	74af64df4c3c0db2
-5	398	8027460782805790	build-Debug.ninja	74af64df4c3c0db2
-5	398	8027460782805790	CMakeFiles/impl-Release.ninja	74af64df4c3c0db2
-5	398	8027460782968634	build-Release.ninja	74af64df4c3c0db2
-5	398	8027460782978637	CMakeFiles/impl-RelWithDebInfo.ninja	74af64df4c3c0db2
-5	398	8027460782988638	build-RelWithDebInfo.ninja	74af64df4c3c0db2
-5	398	8027460782805790	build.ninja	74af64df4c3c0db2
-5	398	8027460782805790	C:/Users/JPeter/Desktop/Paralela/05_ejemplo_mpi/build/cmake_install.cmake	74af64df4c3c0db2
+5	398	8027469951865722	CMakeFiles/impl-Debug.ninja	74af64df4c3c0db2
+5	398	8027469951875731	build-Debug.ninja	74af64df4c3c0db2
+5	398	8027469951892490	CMakeFiles/impl-Release.ninja	74af64df4c3c0db2
+5	398	8027469951899124	build-Release.ninja	74af64df4c3c0db2
+5	398	8027469951899124	CMakeFiles/impl-RelWithDebInfo.ninja	74af64df4c3c0db2
+5	398	8027469951899124	build-RelWithDebInfo.ninja	74af64df4c3c0db2
+5	398	8027469951845707	build.ninja	74af64df4c3c0db2
+5	398	8027469951742180	C:/Users/JPeter/Desktop/Paralela/05_ejemplo_mpi/build/cmake_install.cmake	74af64df4c3c0db2
 12	3324	8027324332470024	Debug/ejemplo_mpi.exe	44b7fcb871316ff4
 13	357	8027325928508192	CMakeFiles/ejemplo_mpi_v2.dir/Debug/main_v2.cpp.obj	f45a08a48379e8ad
 19	2231	8027325928508192	CMakeFiles/ejemplo_mpi_v2.dir/Debug/matrices_v2.cpp.obj	9bed62dd9bfe10a5

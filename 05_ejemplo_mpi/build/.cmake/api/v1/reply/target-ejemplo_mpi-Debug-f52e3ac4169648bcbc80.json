@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "RelWithDebInfo/ejemplo_mpi_v2.exe"
+			"path" : "Debug/ejemplo_mpi.exe"
 		},
 		{
-			"path" : "RelWithDebInfo/ejemplo_mpi_v2.pdb"
+			"path" : "Debug/ejemplo_mpi.pdb"
 		}
 	],
 	"backtrace" : 2,
@@ -32,7 +32,7 @@
 			{
 				"command" : 1,
 				"file" : 1,
-				"line" : 28,
+				"line" : 20,
 				"parent" : 0
 			},
 			{
@@ -44,7 +44,7 @@
 			{
 				"command" : 2,
 				"file" : 1,
-				"line" : 30,
+				"line" : 22,
 				"parent" : 0
 			},
 			{
@@ -56,7 +56,7 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 14,
+				"line" : 18,
 				"parent" : 0
 			}
 		]
@@ -79,7 +79,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-O2 -g -DNDEBUG"
+					"fragment" : "-g"
 				}
 			],
 			"defines" : 
@@ -109,18 +109,18 @@
 			]
 		}
 	],
-	"id" : "ejemplo_mpi_v2::@6890427a1f51a3e7e1df",
+	"id" : "ejemplo_mpi::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "-O2 -g -DNDEBUG",
+				"fragment" : "-g",
 				"role" : "flags"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "C:\\tools\\vcpkg-2026.03.18\\installed\\x64-mingw-dynamic\\lib\\libfmt.dll.a",
+				"fragment" : "C:\\tools\\vcpkg-2026.03.18\\installed\\x64-mingw-dynamic\\debug\\lib\\libfmtd.dll.a",
 				"role" : "libraries"
 			},
 			{
@@ -146,13 +146,13 @@
 			"fragment" : "C:/oneAPI/mpi/2021.18/lib/impi.lib"
 		}
 	],
-	"name" : "ejemplo_mpi_v2",
-	"nameOnDisk" : "ejemplo_mpi_v2.exe",
+	"name" : "ejemplo_mpi",
+	"nameOnDisk" : "ejemplo_mpi.exe",
 	"orderDependencies" : 
 	[
 		{
 			"backtrace" : 4,
-			"id" : "ejemplo_mpi_v2::@6890427a1f51a3e7e1df"
+			"id" : "ejemplo_mpi::@6890427a1f51a3e7e1df"
 		}
 	],
 	"paths" : 
@@ -176,13 +176,13 @@
 		{
 			"backtrace" : 2,
 			"compileGroupIndex" : 0,
-			"path" : "main_v2.cpp",
+			"path" : "main.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 2,
 			"compileGroupIndex" : 0,
-			"path" : "matrices_v2.cpp",
+			"path" : "matrices.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Debug/ejemplo_mpi.exe"
+			"path" : "RelWithDebInfo/ejemplo_mpi.exe"
 		},
 		{
-			"path" : "Debug/ejemplo_mpi.pdb"
+			"path" : "RelWithDebInfo/ejemplo_mpi.pdb"
 		}
 	],
 	"backtrace" : 2,
@@ -32,7 +32,7 @@
 			{
 				"command" : 1,
 				"file" : 1,
-				"line" : 16,
+				"line" : 20,
 				"parent" : 0
 			},
 			{
@@ -44,7 +44,7 @@
 			{
 				"command" : 2,
 				"file" : 1,
-				"line" : 18,
+				"line" : 22,
 				"parent" : 0
 			},
 			{
@@ -56,7 +56,7 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 14,
+				"line" : 18,
 				"parent" : 0
 			}
 		]
@@ -79,7 +79,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g"
+					"fragment" : "-O2 -g -DNDEBUG"
 				}
 			],
 			"defines" : 
@@ -115,12 +115,12 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "-g",
+				"fragment" : "-O2 -g -DNDEBUG",
 				"role" : "flags"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "C:\\tools\\vcpkg-2026.03.18\\installed\\x64-mingw-dynamic\\debug\\lib\\libfmtd.dll.a",
+				"fragment" : "C:\\tools\\vcpkg-2026.03.18\\installed\\x64-mingw-dynamic\\lib\\libfmt.dll.a",
 				"role" : "libraries"
 			},
 			{
