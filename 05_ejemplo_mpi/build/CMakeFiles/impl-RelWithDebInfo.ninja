@@ -43,28 +43,24 @@ include CMakeFiles/common.ninja
 
 build cmake_object_order_depends_target_ejemplo_mpi_RELWITHDEBINFO: phony || .
 
-build CMakeFiles/ejemplo_mpi.dir/RelWithDebInfo/main.cpp.obj: CXX_COMPILER__ejemplo_mpi_unscanned_RelWithDebInfo C$:/Users/fing.labcom/Music/Paralela/05_ejemplo_mpi/main.cpp || cmake_object_order_depends_target_ejemplo_mpi_RELWITHDEBINFO
+build CMakeFiles/ejemplo_mpi.dir/RelWithDebInfo/main.cpp.obj: CXX_COMPILER__ejemplo_mpi_unscanned_RelWithDebInfo C$:/Users/JPeter/Desktop/Paralela/05_ejemplo_mpi/main.cpp || cmake_object_order_depends_target_ejemplo_mpi_RELWITHDEBINFO
   CONFIG = RelWithDebInfo
   DEFINES = -DFMT_SHARED -DCMAKE_INTDIR=\"RelWithDebInfo\"
   DEP_FILE = CMakeFiles\ejemplo_mpi.dir\RelWithDebInfo\main.cpp.obj.d
   FLAGS = -O2 -g -DNDEBUG
-  INCLUDES = -IC:/oneAPI/mpi/latest/include -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include
+  INCLUDES = -IC:/oneAPI/mpi/2021.18/include -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include
   OBJECT_DIR = CMakeFiles\ejemplo_mpi.dir\RelWithDebInfo
   OBJECT_FILE_DIR = CMakeFiles\ejemplo_mpi.dir\RelWithDebInfo
-  TARGET_COMPILE_PDB = CMakeFiles\ejemplo_mpi.dir\RelWithDebInfo\
-  TARGET_PDB = RelWithDebInfo\ejemplo_mpi.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\ejemplo_mpi.dir
 
-build CMakeFiles/ejemplo_mpi.dir/RelWithDebInfo/matrices.cpp.obj: CXX_COMPILER__ejemplo_mpi_unscanned_RelWithDebInfo C$:/Users/fing.labcom/Music/Paralela/05_ejemplo_mpi/matrices.cpp || cmake_object_order_depends_target_ejemplo_mpi_RELWITHDEBINFO
+build CMakeFiles/ejemplo_mpi.dir/RelWithDebInfo/matrices.cpp.obj: CXX_COMPILER__ejemplo_mpi_unscanned_RelWithDebInfo C$:/Users/JPeter/Desktop/Paralela/05_ejemplo_mpi/matrices.cpp || cmake_object_order_depends_target_ejemplo_mpi_RELWITHDEBINFO
   CONFIG = RelWithDebInfo
   DEFINES = -DFMT_SHARED -DCMAKE_INTDIR=\"RelWithDebInfo\"
   DEP_FILE = CMakeFiles\ejemplo_mpi.dir\RelWithDebInfo\matrices.cpp.obj.d
   FLAGS = -O2 -g -DNDEBUG
-  INCLUDES = -IC:/oneAPI/mpi/latest/include -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include
+  INCLUDES = -IC:/oneAPI/mpi/2021.18/include -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include
   OBJECT_DIR = CMakeFiles\ejemplo_mpi.dir\RelWithDebInfo
   OBJECT_FILE_DIR = CMakeFiles\ejemplo_mpi.dir\RelWithDebInfo
-  TARGET_COMPILE_PDB = CMakeFiles\ejemplo_mpi.dir\RelWithDebInfo\
-  TARGET_PDB = RelWithDebInfo\ejemplo_mpi.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\ejemplo_mpi.dir
 
 
@@ -75,28 +71,80 @@ build CMakeFiles/ejemplo_mpi.dir/RelWithDebInfo/matrices.cpp.obj: CXX_COMPILER__
 #############################################
 # Link the executable RelWithDebInfo\ejemplo_mpi.exe
 
-build RelWithDebInfo/ejemplo_mpi.exe: CXX_EXECUTABLE_LINKER__ejemplo_mpi_RelWithDebInfo CMakeFiles/ejemplo_mpi.dir/RelWithDebInfo/main.cpp.obj CMakeFiles/ejemplo_mpi.dir/RelWithDebInfo/matrices.cpp.obj | C$:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/lib/libfmt.dll.a C$:/oneAPI/mpi/latest/lib/impi.lib
+build RelWithDebInfo/ejemplo_mpi.exe: CXX_EXECUTABLE_LINKER__ejemplo_mpi_RelWithDebInfo CMakeFiles/ejemplo_mpi.dir/RelWithDebInfo/main.cpp.obj CMakeFiles/ejemplo_mpi.dir/RelWithDebInfo/matrices.cpp.obj | C$:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/lib/libfmt.dll.a C$:/oneAPI/mpi/2021.18/lib/impi.lib
   CONFIG = RelWithDebInfo
   FLAGS = -O2 -g -DNDEBUG
-  LINK_LIBRARIES = C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/lib/libfmt.dll.a  C:/oneAPI/mpi/latest/lib/impi.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  LINK_LIBRARIES = C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/lib/libfmt.dll.a  C:/oneAPI/mpi/2021.18/lib/impi.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\ejemplo_mpi.dir\RelWithDebInfo
-  POST_BUILD = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\fing.labcom\Music\Paralela\05_ejemplo_mpi\build && C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file c:/tools/vcpkg-2026.03.18/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Users/fing.labcom/Music/Paralela/05_ejemplo_mpi/build/RelWithDebInfo/ejemplo_mpi.exe -installedDir c:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/bin -OutVariable out"
+  POST_BUILD = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\JPeter\Desktop\Paralela\05_ejemplo_mpi\build && C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file c:/tools/vcpkg-2026.03.18/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Users/JPeter/Desktop/Paralela/05_ejemplo_mpi/build/RelWithDebInfo/ejemplo_mpi.exe -installedDir c:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/bin -OutVariable out && cd /D C:\Users\JPeter\Desktop\Paralela\05_ejemplo_mpi\build && C:\tools\mingw64\bin\cmake.exe -E copy_if_different C:/oneAPI/mpi/2021.18/bin/impi.dll C:/Users/JPeter/Desktop/Paralela/05_ejemplo_mpi/build/RelWithDebInfo"
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\ejemplo_mpi.dir\RelWithDebInfo\
   TARGET_FILE = RelWithDebInfo\ejemplo_mpi.exe
   TARGET_IMPLIB = RelWithDebInfo\libejemplo_mpi.dll.a
-  TARGET_PDB = RelWithDebInfo\ejemplo_mpi.pdb
+  TARGET_PDB = ejemplo_mpi.exe.dbg
   TARGET_SUPPORT_DIR = CMakeFiles\ejemplo_mpi.dir
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ejemplo_mpi_v2
+
+
+#############################################
+# Order-only phony target for ejemplo_mpi_v2
+
+build cmake_object_order_depends_target_ejemplo_mpi_v2_RELWITHDEBINFO: phony || .
+
+build CMakeFiles/ejemplo_mpi_v2.dir/RelWithDebInfo/main_v2.cpp.obj: CXX_COMPILER__ejemplo_mpi_v2_unscanned_RelWithDebInfo C$:/Users/JPeter/Desktop/Paralela/05_ejemplo_mpi/main_v2.cpp || cmake_object_order_depends_target_ejemplo_mpi_v2_RELWITHDEBINFO
+  CONFIG = RelWithDebInfo
+  DEFINES = -DFMT_SHARED -DCMAKE_INTDIR=\"RelWithDebInfo\"
+  DEP_FILE = CMakeFiles\ejemplo_mpi_v2.dir\RelWithDebInfo\main_v2.cpp.obj.d
+  FLAGS = -O2 -g -DNDEBUG
+  INCLUDES = -IC:/oneAPI/mpi/2021.18/include -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include
+  OBJECT_DIR = CMakeFiles\ejemplo_mpi_v2.dir\RelWithDebInfo
+  OBJECT_FILE_DIR = CMakeFiles\ejemplo_mpi_v2.dir\RelWithDebInfo
+  TARGET_SUPPORT_DIR = CMakeFiles\ejemplo_mpi_v2.dir
+
+build CMakeFiles/ejemplo_mpi_v2.dir/RelWithDebInfo/matrices_v2.cpp.obj: CXX_COMPILER__ejemplo_mpi_v2_unscanned_RelWithDebInfo C$:/Users/JPeter/Desktop/Paralela/05_ejemplo_mpi/matrices_v2.cpp || cmake_object_order_depends_target_ejemplo_mpi_v2_RELWITHDEBINFO
+  CONFIG = RelWithDebInfo
+  DEFINES = -DFMT_SHARED -DCMAKE_INTDIR=\"RelWithDebInfo\"
+  DEP_FILE = CMakeFiles\ejemplo_mpi_v2.dir\RelWithDebInfo\matrices_v2.cpp.obj.d
+  FLAGS = -O2 -g -DNDEBUG
+  INCLUDES = -IC:/oneAPI/mpi/2021.18/include -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include
+  OBJECT_DIR = CMakeFiles\ejemplo_mpi_v2.dir\RelWithDebInfo
+  OBJECT_FILE_DIR = CMakeFiles\ejemplo_mpi_v2.dir\RelWithDebInfo
+  TARGET_SUPPORT_DIR = CMakeFiles\ejemplo_mpi_v2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ejemplo_mpi_v2
+
+
+#############################################
+# Link the executable RelWithDebInfo\ejemplo_mpi_v2.exe
+
+build RelWithDebInfo/ejemplo_mpi_v2.exe: CXX_EXECUTABLE_LINKER__ejemplo_mpi_v2_RelWithDebInfo CMakeFiles/ejemplo_mpi_v2.dir/RelWithDebInfo/main_v2.cpp.obj CMakeFiles/ejemplo_mpi_v2.dir/RelWithDebInfo/matrices_v2.cpp.obj | C$:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/lib/libfmt.dll.a C$:/oneAPI/mpi/2021.18/lib/impi.lib
+  CONFIG = RelWithDebInfo
+  FLAGS = -O2 -g -DNDEBUG
+  LINK_LIBRARIES = C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/lib/libfmt.dll.a  C:/oneAPI/mpi/2021.18/lib/impi.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\ejemplo_mpi_v2.dir\RelWithDebInfo
+  POST_BUILD = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\JPeter\Desktop\Paralela\05_ejemplo_mpi\build && C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file c:/tools/vcpkg-2026.03.18/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Users/JPeter/Desktop/Paralela/05_ejemplo_mpi/build/RelWithDebInfo/ejemplo_mpi_v2.exe -installedDir c:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/bin -OutVariable out && cd /D C:\Users\JPeter\Desktop\Paralela\05_ejemplo_mpi\build && C:\tools\mingw64\bin\cmake.exe -E copy_if_different C:/oneAPI/mpi/2021.18/bin/impi.dll C:/Users/JPeter/Desktop/Paralela/05_ejemplo_mpi/build/RelWithDebInfo"
+  PRE_LINK = cd .
+  TARGET_FILE = RelWithDebInfo\ejemplo_mpi_v2.exe
+  TARGET_IMPLIB = RelWithDebInfo\libejemplo_mpi_v2.dll.a
+  TARGET_PDB = ejemplo_mpi_v2.exe.dbg
+  TARGET_SUPPORT_DIR = CMakeFiles\ejemplo_mpi_v2.dir
 
 build ejemplo_mpi.exe$:RelWithDebInfo: phony RelWithDebInfo/ejemplo_mpi.exe
 
 build ejemplo_mpi$:RelWithDebInfo: phony RelWithDebInfo/ejemplo_mpi.exe
 
+build ejemplo_mpi_v2.exe$:RelWithDebInfo: phony RelWithDebInfo/ejemplo_mpi_v2.exe
+
+build ejemplo_mpi_v2$:RelWithDebInfo: phony RelWithDebInfo/ejemplo_mpi_v2.exe
+
 
 #############################################
-# Folder: C:/Users/fing.labcom/Music/Paralela/05_ejemplo_mpi/build
+# Folder: C:/Users/JPeter/Desktop/Paralela/05_ejemplo_mpi/build
 
-build all$:RelWithDebInfo: phony RelWithDebInfo/ejemplo_mpi.exe
+build all$:RelWithDebInfo: phony RelWithDebInfo/ejemplo_mpi.exe RelWithDebInfo/ejemplo_mpi_v2.exe
 
 
 #############################################

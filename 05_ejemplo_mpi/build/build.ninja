@@ -9,9 +9,13 @@ build ejemplo_mpi: phony Debug/ejemplo_mpi.exe
 
 build ejemplo_mpi.exe: phony Debug/ejemplo_mpi.exe
 
+build ejemplo_mpi_v2: phony Debug/ejemplo_mpi_v2.exe
+
+build ejemplo_mpi_v2.exe: phony Debug/ejemplo_mpi_v2.exe
+
 
 #############################################
-# Folder: C:/Users/fing.labcom/Music/Paralela/05_ejemplo_mpi/build
+# Folder: C:/Users/JPeter/Desktop/Paralela/05_ejemplo_mpi/build
 
 build all: phony all$:Debug
 

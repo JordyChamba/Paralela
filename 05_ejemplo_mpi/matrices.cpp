@@ -43,8 +43,8 @@ void matrices(int argc, char **argv)
     MPI_Comm_size(MPI_COMM_WORLD, &nprocs);
     MPI_Comm_rank(MPI_COMM_WORLD, &rank);
 
-    int rows_per_rank = std::ceil(MATRIX_DIH * 1.0 / nprocs);
-    int padding = rows_per_rank * nprocs - MATRIX_DIH;
+    int base_rows = MATRIX_DIH / nprocs;
+    int extra = MATRIX_DIH % nprocs;
 
     if (rank == 0)
     {
@@ -54,45 +54,41 @@ void matrices(int argc, char **argv)
 
         for (int i = 0; i < MATRIX_DIH; i++) {
             for (int j = 0; j < MATRIX_DIH; j++) {
-                A[i * MATRIX_DIH + j] = i;
+                A[i * MATRIX_DIH + j] = static_cast<double>(i);
             }
             B[i] = 1.0;
         }
 
-        fmt::print("MATRIX_DIM: {}, nprocs: {}, rows_per_rank: {}, padding: {}\n", MATRIX_DIH, nprocs, rows_per_rank, padding);
+        fmt::print("MATRIX_DIM: {}, nprocs: {}, base_rows: {}, extra: {}\n", MATRIX_DIH, nprocs, base_rows, extra);
 
-        int filas_enviadas = rows_per_rank;
+        auto filas_para_rank = [&](int r) { return (r < extra) ? base_rows + 1 : base_rows; };
+
+        int fila0 = filas_para_rank(0);
+
+        int offset = fila0;
         for (int i = 1; i < nprocs; i++)
         {
-            int fila = rows_per_rank;
-            if (i == nprocs - 1) {
-                fila = rows_per_rank - padding;
-            }
+            int fila = filas_para_rank(i);
 
             std::vector<int> data = {MATRIX_DIH, fila};
             MPI_Send(data.data(), 2, MPI_INT, i, 0, MPI_COMM_WORLD);
 
-            if (fila > 0) {
-                MPI_Send(&A[filas_enviadas * MATRIX_DIH], fila * MATRIX_DIH, MPI_DOUBLE, i, 1, MPI_COMM_WORLD);
-                MPI_Send(B.data(), MATRIX_DIH, MPI_DOUBLE, i, 2, MPI_COMM_WORLD);
-            }
-            filas_enviadas += rows_per_rank;
+            MPI_Send(&A[offset * MATRIX_DIH], fila * MATRIX_DIH, MPI_DOUBLE, i, 1, MPI_COMM_WORLD);
+            MPI_Send(B.data(), MATRIX_DIH, MPI_DOUBLE, i, 2, MPI_COMM_WORLD);
+
+            offset += fila;
         }
 
-        multiplicar_matriz_vector(A, B, X, rows_per_rank, MATRIX_DIH);
+        multiplicar_matriz_vector(A, B, X, fila0, MATRIX_DIH);
 
-        int posicion_recibo = rows_per_rank;
+        offset = fila0;
         for (int i = 1; i < nprocs; i++)
         {
-            int fila = rows_per_rank;
-            if (i == nprocs - 1) {
-                fila = rows_per_rank - padding;
-            }
+            int fila = filas_para_rank(i);
 
-            if (fila > 0) {
-                MPI_Recv(X.data() + posicion_recibo, fila, MPI_DOUBLE, i, 3, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
-            }
-            posicion_recibo += rows_per_rank;
+            MPI_Recv(X.data() + offset, fila, MPI_DOUBLE, i, 3, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
+
+            offset += fila;
         }
 
         fmt::print("RANK_{}, resultado parcial:\n", rank);

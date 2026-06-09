@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Debug/ejemplo_mpi.exe"
+			"path" : "Release/ejemplo_mpi.exe"
 		},
 		{
-			"path" : "Debug/ejemplo_mpi.pdb"
+			"path" : "Release/ejemplo_mpi.pdb"
 		}
 	],
 	"backtrace" : 2,
@@ -38,7 +38,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 612,
+				"line" : 608,
 				"parent" : 1
 			},
 			{
@@ -50,7 +50,7 @@
 			{
 				"command" : 3,
 				"file" : 0,
-				"line" : 626,
+				"line" : 622,
 				"parent" : 1
 			},
 			{
@@ -79,7 +79,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g"
+					"fragment" : "-O3 -DNDEBUG"
 				}
 			],
 			"defines" : 
@@ -93,7 +93,7 @@
 			[
 				{
 					"backtrace" : 5,
-					"path" : "C:/oneAPI/mpi/latest/include"
+					"path" : "C:/oneAPI/mpi/2021.18/include"
 				},
 				{
 					"backtrace" : 3,
@@ -115,17 +115,17 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "-g",
+				"fragment" : "-O3 -DNDEBUG",
 				"role" : "flags"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "C:\\tools\\vcpkg-2026.03.18\\installed\\x64-mingw-dynamic\\debug\\lib\\libfmtd.dll.a",
+				"fragment" : "C:\\tools\\vcpkg-2026.03.18\\installed\\x64-mingw-dynamic\\lib\\libfmt.dll.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "C:\\oneAPI\\mpi\\latest\\lib\\impi.lib",
+				"fragment" : "C:\\oneAPI\\mpi\\2021.18\\lib\\impi.lib",
 				"role" : "libraries"
 			},
 			{
@@ -143,7 +143,7 @@
 		},
 		{
 			"backtrace" : 3,
-			"fragment" : "C:/oneAPI/mpi/latest/lib/impi.lib"
+			"fragment" : "C:/oneAPI/mpi/2021.18/lib/impi.lib"
 		}
 	],
 	"name" : "ejemplo_mpi",

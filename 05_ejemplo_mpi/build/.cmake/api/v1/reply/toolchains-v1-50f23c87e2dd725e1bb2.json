@@ -10,14 +10,14 @@
 				{
 					"includeDirectories" : 
 					[
-						"C:/tools/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include",
+						"C:/tools/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include",
 						"C:/tools/mingw64/include",
-						"C:/tools/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed",
+						"C:/tools/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include-fixed",
 						"C:/tools/mingw64/x86_64-w64-mingw32/include"
 					],
 					"linkDirectories" : 
 					[
-						"C:/tools/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0",
+						"C:/tools/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0",
 						"C:/tools/mingw64/lib/gcc",
 						"C:/tools/mingw64/x86_64-w64-mingw32/lib",
 						"C:/tools/mingw64/lib"
@@ -41,7 +41,7 @@
 					]
 				},
 				"path" : "c:/tools/mingw64/bin/gcc.exe",
-				"version" : "15.2.0"
+				"version" : "16.1.0"
 			},
 			"language" : "C",
 			"sourceFileExtensions" : 
@@ -58,17 +58,17 @@
 				{
 					"includeDirectories" : 
 					[
-						"C:/tools/mingw64/include/c++/15.2.0",
-						"C:/tools/mingw64/include/c++/15.2.0/x86_64-w64-mingw32",
-						"C:/tools/mingw64/include/c++/15.2.0/backward",
-						"C:/tools/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include",
+						"C:/tools/mingw64/include/c++/16.1.0",
+						"C:/tools/mingw64/include/c++/16.1.0/x86_64-w64-mingw32",
+						"C:/tools/mingw64/include/c++/16.1.0/backward",
+						"C:/tools/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include",
 						"C:/tools/mingw64/include",
-						"C:/tools/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed",
+						"C:/tools/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include-fixed",
 						"C:/tools/mingw64/x86_64-w64-mingw32/include"
 					],
 					"linkDirectories" : 
 					[
-						"C:/tools/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0",
+						"C:/tools/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0",
 						"C:/tools/mingw64/lib/gcc",
 						"C:/tools/mingw64/x86_64-w64-mingw32/lib",
 						"C:/tools/mingw64/lib"
@@ -95,7 +95,7 @@
 					]
 				},
 				"path" : "c:/tools/mingw64/bin/g++.exe",
-				"version" : "15.2.0"
+				"version" : "16.1.0"
 			},
 			"language" : "CXX",
 			"sourceFileExtensions" : 
