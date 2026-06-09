@@ -1,0 +1,23 @@
+# ninja log v7
+15	498	8027120641924953	CMakeFiles/ejemplo_mpi.dir/Debug/matrices.cpp.obj	8e3949e541a3922
+12	555	8027120641895023	CMakeFiles/ejemplo_mpi.dir/Debug/main.cpp.obj	ea7ec9b3448d89
+29	548	8027121351551483	CMakeFiles/ejemplo_mpi.dir/Debug/matrices.cpp.obj	8e3949e541a3922
+26	606	8027121351521499	CMakeFiles/ejemplo_mpi.dir/Debug/main.cpp.obj	ea7ec9b3448d89
+18	404	8027121757573993	CMakeFiles/ejemplo_mpi.dir/Debug/main.cpp.obj	ea7ec9b3448d89
+404	1165	8027121761438825	Debug/ejemplo_mpi.exe	396513da885ec571
+5	409	8027126431375361	CMakeFiles/ejemplo_mpi.dir/Debug/main.cpp.obj	ea7ec9b3448d89
+8	504	8027126431405375	CMakeFiles/ejemplo_mpi.dir/Debug/matrices.cpp.obj	8e3949e541a3922
+504	1071	8027126436368321	Debug/ejemplo_mpi.exe	396513da885ec571
+23	418	8027128151923008	CMakeFiles/ejemplo_mpi.dir/Debug/main.cpp.obj	ea7ec9b3448d89
+26	526	8027128151953012	CMakeFiles/ejemplo_mpi.dir/Debug/matrices.cpp.obj	8e3949e541a3922
+526	1129	8027128156953990	Debug/ejemplo_mpi.exe	396513da885ec571
+18	551	8027132324663975	CMakeFiles/ejemplo_mpi.dir/Debug/matrices.cpp.obj	8e3949e541a3922
+551	1134	8027132329986613	Debug/ejemplo_mpi.exe	396513da885ec571
+20	560	8027133675221079	CMakeFiles/ejemplo_mpi.dir/Debug/matrices.cpp.obj	8e3949e541a3922
+561	1119	8027133680629297	Debug/ejemplo_mpi.exe	396513da885ec571
+20	499	8027135383974786	CMakeFiles/ejemplo_mpi.dir/Debug/matrices.cpp.obj	8e3949e541a3922
+19	522	8027136668072090	CMakeFiles/ejemplo_mpi.dir/Debug/matrices.cpp.obj	8e3949e541a3922
+18	512	8027136876702037	CMakeFiles/ejemplo_mpi.dir/Debug/matrices.cpp.obj	8e3949e541a3922
+18	398	8027137380311982	CMakeFiles/ejemplo_mpi.dir/Debug/main.cpp.obj	ea7ec9b3448d89
+21	526	8027137380342014	CMakeFiles/ejemplo_mpi.dir/Debug/matrices.cpp.obj	8e3949e541a3922
+526	1096	8027137385390179	Debug/ejemplo_mpi.exe	396513da885ec571
