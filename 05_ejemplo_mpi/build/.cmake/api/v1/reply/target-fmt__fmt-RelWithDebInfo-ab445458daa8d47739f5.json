@@ -3,10 +3,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/debug/bin/libfmtd.dll"
+			"path" : "C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/bin/libfmt.dll"
 		},
 		{
-			"path" : "C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/debug/lib/libfmtd.dll.a"
+			"path" : "C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/lib/libfmt.dll.a"
 		}
 	],
 	"backtrace" : 7,
@@ -41,7 +41,7 @@
 			{
 				"command" : 3,
 				"file" : 0,
-				"line" : 904,
+				"line" : 908,
 				"parent" : 1
 			},
 			{
@@ -67,7 +67,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 649,
+				"line" : 653,
 				"parent" : 6
 			}
 		]
@@ -81,7 +81,7 @@
 	"imported" : true,
 	"local" : true,
 	"name" : "fmt::fmt",
-	"nameOnDisk" : "libfmtd.dll",
+	"nameOnDisk" : "libfmt.dll",
 	"paths" : 
 	{
 		"build" : ".",

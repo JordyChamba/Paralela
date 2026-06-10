@@ -6,7 +6,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "build/CMakeFiles/4.3.2/CMakeSystem.cmake"
+			"path" : "build/CMakeFiles/4.3.1/CMakeSystem.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -29,11 +29,11 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "build/CMakeFiles/4.3.2/CMakeCCompiler.cmake"
+			"path" : "build/CMakeFiles/4.3.1/CMakeCCompiler.cmake"
 		},
 		{
 			"isGenerated" : true,
-			"path" : "build/CMakeFiles/4.3.2/CMakeCXXCompiler.cmake"
+			"path" : "build/CMakeFiles/4.3.1/CMakeCXXCompiler.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -97,7 +97,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "build/CMakeFiles/4.3.2/CMakeRCCompiler.cmake"
+			"path" : "build/CMakeFiles/4.3.1/CMakeRCCompiler.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -238,8 +238,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "C:/Users/JPeter/Desktop/Paralela/05_ejemplo_mpi/build",
-		"source" : "C:/Users/JPeter/Desktop/Paralela/05_ejemplo_mpi"
+		"build" : "C:/Users/fing.labcom/Music/Paralela/05_ejemplo_mpi/build",
+		"source" : "C:/Users/fing.labcom/Music/Paralela/05_ejemplo_mpi"
 	},
 	"version" : 
 	{

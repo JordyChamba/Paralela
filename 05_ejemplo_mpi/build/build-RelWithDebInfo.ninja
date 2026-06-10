@@ -14,9 +14,13 @@ build ejemplo_mpi_v2: phony RelWithDebInfo/ejemplo_mpi_v2.exe
 
 build ejemplo_mpi_v2.exe: phony RelWithDebInfo/ejemplo_mpi_v2.exe
 
+build ejemplo_mpi_v3: phony RelWithDebInfo/ejemplo_mpi_v3.exe
+
+build ejemplo_mpi_v3.exe: phony RelWithDebInfo/ejemplo_mpi_v3.exe
+
 
 #############################################
-# Folder: C:/Users/JPeter/Desktop/Paralela/05_ejemplo_mpi/build
+# Folder: C:/Users/fing.labcom/Music/Paralela/05_ejemplo_mpi/build
 
 build all: phony all$:RelWithDebInfo
 

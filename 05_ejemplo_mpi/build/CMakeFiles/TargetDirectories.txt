@@ -1,4 +1,5 @@
-C:/Users/JPeter/Desktop/Paralela/05_ejemplo_mpi/build/CMakeFiles/ejemplo_mpi.dir
-C:/Users/JPeter/Desktop/Paralela/05_ejemplo_mpi/build/CMakeFiles/ejemplo_mpi_v2.dir
-C:/Users/JPeter/Desktop/Paralela/05_ejemplo_mpi/build/CMakeFiles/edit_cache.dir
-C:/Users/JPeter/Desktop/Paralela/05_ejemplo_mpi/build/CMakeFiles/rebuild_cache.dir
+C:/Users/fing.labcom/Music/Paralela/05_ejemplo_mpi/build/CMakeFiles/ejemplo_mpi.dir
+C:/Users/fing.labcom/Music/Paralela/05_ejemplo_mpi/build/CMakeFiles/ejemplo_mpi_v2.dir
+C:/Users/fing.labcom/Music/Paralela/05_ejemplo_mpi/build/CMakeFiles/ejemplo_mpi_v3.dir
+C:/Users/fing.labcom/Music/Paralela/05_ejemplo_mpi/build/CMakeFiles/edit_cache.dir
+C:/Users/fing.labcom/Music/Paralela/05_ejemplo_mpi/build/CMakeFiles/rebuild_cache.dir

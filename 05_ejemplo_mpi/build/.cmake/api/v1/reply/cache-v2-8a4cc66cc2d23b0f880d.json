@@ -43,7 +43,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/JPeter/Desktop/Paralela/05_ejemplo_mpi/build"
+			"value" : "c:/Users/fing.labcom/Music/Paralela/05_ejemplo_mpi/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -79,7 +79,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "2"
+			"value" : "1"
 		},
 		{
 			"name" : "CMAKE_COMMAND",
@@ -575,7 +575,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/JPeter/Desktop/Paralela/05_ejemplo_mpi/build/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/fing.labcom/Music/Paralela/05_ejemplo_mpi/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -647,7 +647,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/JPeter/Desktop/Paralela/05_ejemplo_mpi"
+			"value" : "C:/Users/fing.labcom/Music/Paralela/05_ejemplo_mpi"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1551,7 +1551,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/JPeter/Desktop/Paralela/05_ejemplo_mpi/build"
+			"value" : "C:/Users/fing.labcom/Music/Paralela/05_ejemplo_mpi/build"
 		},
 		{
 			"name" : "ejemploMPI_IS_TOP_LEVEL",
@@ -1575,7 +1575,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/JPeter/Desktop/Paralela/05_ejemplo_mpi"
+			"value" : "C:/Users/fing.labcom/Music/Paralela/05_ejemplo_mpi"
 		},
 		{
 			"name" : "fmt_DIR",

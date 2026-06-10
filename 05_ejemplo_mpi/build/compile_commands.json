@@ -1,74 +1,110 @@
 [
 {
-  "directory": "C:/Users/JPeter/Desktop/Paralela/05_ejemplo_mpi/build",
-  "command": "c:\\tools\\mingw64\\bin\\g++.exe -DFMT_SHARED -DCMAKE_INTDIR=\\\"Debug\\\" -IC:/oneAPI/mpi/2021.18/include -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include -g -o CMakeFiles\\ejemplo_mpi.dir\\Debug\\main.cpp.obj -c C:\\Users\\JPeter\\Desktop\\Paralela\\05_ejemplo_mpi\\main.cpp",
-  "file": "C:/Users/JPeter/Desktop/Paralela/05_ejemplo_mpi/main.cpp",
-  "output": "C:/Users/JPeter/Desktop/Paralela/05_ejemplo_mpi/build/CMakeFiles/ejemplo_mpi.dir/Debug/main.cpp.obj"
+  "directory": "C:/Users/fing.labcom/Music/Paralela/05_ejemplo_mpi/build",
+  "command": "c:\\tools\\mingw64\\bin\\g++.exe -DFMT_SHARED -DCMAKE_INTDIR=\\\"Debug\\\" -IC:/oneAPI/mpi/2021.17/include -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include -g -o CMakeFiles\\ejemplo_mpi.dir\\Debug\\main.cpp.obj -c C:\\Users\\fing.labcom\\Music\\Paralela\\05_ejemplo_mpi\\main.cpp",
+  "file": "C:/Users/fing.labcom/Music/Paralela/05_ejemplo_mpi/main.cpp",
+  "output": "C:/Users/fing.labcom/Music/Paralela/05_ejemplo_mpi/build/CMakeFiles/ejemplo_mpi.dir/Debug/main.cpp.obj"
 },
 {
-  "directory": "C:/Users/JPeter/Desktop/Paralela/05_ejemplo_mpi/build",
-  "command": "c:\\tools\\mingw64\\bin\\g++.exe -DFMT_SHARED -DCMAKE_INTDIR=\\\"Debug\\\" -IC:/oneAPI/mpi/2021.18/include -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include -g -o CMakeFiles\\ejemplo_mpi.dir\\Debug\\matrices.cpp.obj -c C:\\Users\\JPeter\\Desktop\\Paralela\\05_ejemplo_mpi\\matrices.cpp",
-  "file": "C:/Users/JPeter/Desktop/Paralela/05_ejemplo_mpi/matrices.cpp",
-  "output": "C:/Users/JPeter/Desktop/Paralela/05_ejemplo_mpi/build/CMakeFiles/ejemplo_mpi.dir/Debug/matrices.cpp.obj"
+  "directory": "C:/Users/fing.labcom/Music/Paralela/05_ejemplo_mpi/build",
+  "command": "c:\\tools\\mingw64\\bin\\g++.exe -DFMT_SHARED -DCMAKE_INTDIR=\\\"Debug\\\" -IC:/oneAPI/mpi/2021.17/include -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include -g -o CMakeFiles\\ejemplo_mpi.dir\\Debug\\matrices.cpp.obj -c C:\\Users\\fing.labcom\\Music\\Paralela\\05_ejemplo_mpi\\matrices.cpp",
+  "file": "C:/Users/fing.labcom/Music/Paralela/05_ejemplo_mpi/matrices.cpp",
+  "output": "C:/Users/fing.labcom/Music/Paralela/05_ejemplo_mpi/build/CMakeFiles/ejemplo_mpi.dir/Debug/matrices.cpp.obj"
 },
 {
-  "directory": "C:/Users/JPeter/Desktop/Paralela/05_ejemplo_mpi/build",
-  "command": "c:\\tools\\mingw64\\bin\\g++.exe -DFMT_SHARED -DCMAKE_INTDIR=\\\"Release\\\" -IC:/oneAPI/mpi/2021.18/include -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include -O3 -DNDEBUG -o CMakeFiles\\ejemplo_mpi.dir\\Release\\main.cpp.obj -c C:\\Users\\JPeter\\Desktop\\Paralela\\05_ejemplo_mpi\\main.cpp",
-  "file": "C:/Users/JPeter/Desktop/Paralela/05_ejemplo_mpi/main.cpp",
-  "output": "C:/Users/JPeter/Desktop/Paralela/05_ejemplo_mpi/build/CMakeFiles/ejemplo_mpi.dir/Release/main.cpp.obj"
+  "directory": "C:/Users/fing.labcom/Music/Paralela/05_ejemplo_mpi/build",
+  "command": "c:\\tools\\mingw64\\bin\\g++.exe -DFMT_SHARED -DCMAKE_INTDIR=\\\"Release\\\" -IC:/oneAPI/mpi/2021.17/include -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include -O3 -DNDEBUG -o CMakeFiles\\ejemplo_mpi.dir\\Release\\main.cpp.obj -c C:\\Users\\fing.labcom\\Music\\Paralela\\05_ejemplo_mpi\\main.cpp",
+  "file": "C:/Users/fing.labcom/Music/Paralela/05_ejemplo_mpi/main.cpp",
+  "output": "C:/Users/fing.labcom/Music/Paralela/05_ejemplo_mpi/build/CMakeFiles/ejemplo_mpi.dir/Release/main.cpp.obj"
 },
 {
-  "directory": "C:/Users/JPeter/Desktop/Paralela/05_ejemplo_mpi/build",
-  "command": "c:\\tools\\mingw64\\bin\\g++.exe -DFMT_SHARED -DCMAKE_INTDIR=\\\"Release\\\" -IC:/oneAPI/mpi/2021.18/include -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include -O3 -DNDEBUG -o CMakeFiles\\ejemplo_mpi.dir\\Release\\matrices.cpp.obj -c C:\\Users\\JPeter\\Desktop\\Paralela\\05_ejemplo_mpi\\matrices.cpp",
-  "file": "C:/Users/JPeter/Desktop/Paralela/05_ejemplo_mpi/matrices.cpp",
-  "output": "C:/Users/JPeter/Desktop/Paralela/05_ejemplo_mpi/build/CMakeFiles/ejemplo_mpi.dir/Release/matrices.cpp.obj"
+  "directory": "C:/Users/fing.labcom/Music/Paralela/05_ejemplo_mpi/build",
+  "command": "c:\\tools\\mingw64\\bin\\g++.exe -DFMT_SHARED -DCMAKE_INTDIR=\\\"Release\\\" -IC:/oneAPI/mpi/2021.17/include -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include -O3 -DNDEBUG -o CMakeFiles\\ejemplo_mpi.dir\\Release\\matrices.cpp.obj -c C:\\Users\\fing.labcom\\Music\\Paralela\\05_ejemplo_mpi\\matrices.cpp",
+  "file": "C:/Users/fing.labcom/Music/Paralela/05_ejemplo_mpi/matrices.cpp",
+  "output": "C:/Users/fing.labcom/Music/Paralela/05_ejemplo_mpi/build/CMakeFiles/ejemplo_mpi.dir/Release/matrices.cpp.obj"
 },
 {
-  "directory": "C:/Users/JPeter/Desktop/Paralela/05_ejemplo_mpi/build",
-  "command": "c:\\tools\\mingw64\\bin\\g++.exe -DFMT_SHARED -DCMAKE_INTDIR=\\\"RelWithDebInfo\\\" -IC:/oneAPI/mpi/2021.18/include -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include -O2 -g -DNDEBUG -o CMakeFiles\\ejemplo_mpi.dir\\RelWithDebInfo\\main.cpp.obj -c C:\\Users\\JPeter\\Desktop\\Paralela\\05_ejemplo_mpi\\main.cpp",
-  "file": "C:/Users/JPeter/Desktop/Paralela/05_ejemplo_mpi/main.cpp",
-  "output": "C:/Users/JPeter/Desktop/Paralela/05_ejemplo_mpi/build/CMakeFiles/ejemplo_mpi.dir/RelWithDebInfo/main.cpp.obj"
+  "directory": "C:/Users/fing.labcom/Music/Paralela/05_ejemplo_mpi/build",
+  "command": "c:\\tools\\mingw64\\bin\\g++.exe -DFMT_SHARED -DCMAKE_INTDIR=\\\"RelWithDebInfo\\\" -IC:/oneAPI/mpi/2021.17/include -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include -O2 -g -DNDEBUG -o CMakeFiles\\ejemplo_mpi.dir\\RelWithDebInfo\\main.cpp.obj -c C:\\Users\\fing.labcom\\Music\\Paralela\\05_ejemplo_mpi\\main.cpp",
+  "file": "C:/Users/fing.labcom/Music/Paralela/05_ejemplo_mpi/main.cpp",
+  "output": "C:/Users/fing.labcom/Music/Paralela/05_ejemplo_mpi/build/CMakeFiles/ejemplo_mpi.dir/RelWithDebInfo/main.cpp.obj"
 },
 {
-  "directory": "C:/Users/JPeter/Desktop/Paralela/05_ejemplo_mpi/build",
-  "command": "c:\\tools\\mingw64\\bin\\g++.exe -DFMT_SHARED -DCMAKE_INTDIR=\\\"RelWithDebInfo\\\" -IC:/oneAPI/mpi/2021.18/include -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include -O2 -g -DNDEBUG -o CMakeFiles\\ejemplo_mpi.dir\\RelWithDebInfo\\matrices.cpp.obj -c C:\\Users\\JPeter\\Desktop\\Paralela\\05_ejemplo_mpi\\matrices.cpp",
-  "file": "C:/Users/JPeter/Desktop/Paralela/05_ejemplo_mpi/matrices.cpp",
-  "output": "C:/Users/JPeter/Desktop/Paralela/05_ejemplo_mpi/build/CMakeFiles/ejemplo_mpi.dir/RelWithDebInfo/matrices.cpp.obj"
+  "directory": "C:/Users/fing.labcom/Music/Paralela/05_ejemplo_mpi/build",
+  "command": "c:\\tools\\mingw64\\bin\\g++.exe -DFMT_SHARED -DCMAKE_INTDIR=\\\"RelWithDebInfo\\\" -IC:/oneAPI/mpi/2021.17/include -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include -O2 -g -DNDEBUG -o CMakeFiles\\ejemplo_mpi.dir\\RelWithDebInfo\\matrices.cpp.obj -c C:\\Users\\fing.labcom\\Music\\Paralela\\05_ejemplo_mpi\\matrices.cpp",
+  "file": "C:/Users/fing.labcom/Music/Paralela/05_ejemplo_mpi/matrices.cpp",
+  "output": "C:/Users/fing.labcom/Music/Paralela/05_ejemplo_mpi/build/CMakeFiles/ejemplo_mpi.dir/RelWithDebInfo/matrices.cpp.obj"
 },
 {
-  "directory": "C:/Users/JPeter/Desktop/Paralela/05_ejemplo_mpi/build",
-  "command": "c:\\tools\\mingw64\\bin\\g++.exe -DFMT_SHARED -DCMAKE_INTDIR=\\\"Debug\\\" -IC:/oneAPI/mpi/2021.18/include -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include -g -o CMakeFiles\\ejemplo_mpi_v2.dir\\Debug\\main_v2.cpp.obj -c C:\\Users\\JPeter\\Desktop\\Paralela\\05_ejemplo_mpi\\main_v2.cpp",
-  "file": "C:/Users/JPeter/Desktop/Paralela/05_ejemplo_mpi/main_v2.cpp",
-  "output": "C:/Users/JPeter/Desktop/Paralela/05_ejemplo_mpi/build/CMakeFiles/ejemplo_mpi_v2.dir/Debug/main_v2.cpp.obj"
+  "directory": "C:/Users/fing.labcom/Music/Paralela/05_ejemplo_mpi/build",
+  "command": "c:\\tools\\mingw64\\bin\\g++.exe -DFMT_SHARED -DCMAKE_INTDIR=\\\"Debug\\\" -IC:/oneAPI/mpi/2021.17/include -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include -g -o CMakeFiles\\ejemplo_mpi_v2.dir\\Debug\\main_v2.cpp.obj -c C:\\Users\\fing.labcom\\Music\\Paralela\\05_ejemplo_mpi\\main_v2.cpp",
+  "file": "C:/Users/fing.labcom/Music/Paralela/05_ejemplo_mpi/main_v2.cpp",
+  "output": "C:/Users/fing.labcom/Music/Paralela/05_ejemplo_mpi/build/CMakeFiles/ejemplo_mpi_v2.dir/Debug/main_v2.cpp.obj"
 },
 {
-  "directory": "C:/Users/JPeter/Desktop/Paralela/05_ejemplo_mpi/build",
-  "command": "c:\\tools\\mingw64\\bin\\g++.exe -DFMT_SHARED -DCMAKE_INTDIR=\\\"Debug\\\" -IC:/oneAPI/mpi/2021.18/include -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include -g -o CMakeFiles\\ejemplo_mpi_v2.dir\\Debug\\matrices_v2.cpp.obj -c C:\\Users\\JPeter\\Desktop\\Paralela\\05_ejemplo_mpi\\matrices_v2.cpp",
-  "file": "C:/Users/JPeter/Desktop/Paralela/05_ejemplo_mpi/matrices_v2.cpp",
-  "output": "C:/Users/JPeter/Desktop/Paralela/05_ejemplo_mpi/build/CMakeFiles/ejemplo_mpi_v2.dir/Debug/matrices_v2.cpp.obj"
+  "directory": "C:/Users/fing.labcom/Music/Paralela/05_ejemplo_mpi/build",
+  "command": "c:\\tools\\mingw64\\bin\\g++.exe -DFMT_SHARED -DCMAKE_INTDIR=\\\"Debug\\\" -IC:/oneAPI/mpi/2021.17/include -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include -g -o CMakeFiles\\ejemplo_mpi_v2.dir\\Debug\\matrices_v2.cpp.obj -c C:\\Users\\fing.labcom\\Music\\Paralela\\05_ejemplo_mpi\\matrices_v2.cpp",
+  "file": "C:/Users/fing.labcom/Music/Paralela/05_ejemplo_mpi/matrices_v2.cpp",
+  "output": "C:/Users/fing.labcom/Music/Paralela/05_ejemplo_mpi/build/CMakeFiles/ejemplo_mpi_v2.dir/Debug/matrices_v2.cpp.obj"
 },
 {
-  "directory": "C:/Users/JPeter/Desktop/Paralela/05_ejemplo_mpi/build",
-  "command": "c:\\tools\\mingw64\\bin\\g++.exe -DFMT_SHARED -DCMAKE_INTDIR=\\\"Release\\\" -IC:/oneAPI/mpi/2021.18/include -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include -O3 -DNDEBUG -o CMakeFiles\\ejemplo_mpi_v2.dir\\Release\\main_v2.cpp.obj -c C:\\Users\\JPeter\\Desktop\\Paralela\\05_ejemplo_mpi\\main_v2.cpp",
-  "file": "C:/Users/JPeter/Desktop/Paralela/05_ejemplo_mpi/main_v2.cpp",
-  "output": "C:/Users/JPeter/Desktop/Paralela/05_ejemplo_mpi/build/CMakeFiles/ejemplo_mpi_v2.dir/Release/main_v2.cpp.obj"
+  "directory": "C:/Users/fing.labcom/Music/Paralela/05_ejemplo_mpi/build",
+  "command": "c:\\tools\\mingw64\\bin\\g++.exe -DFMT_SHARED -DCMAKE_INTDIR=\\\"Release\\\" -IC:/oneAPI/mpi/2021.17/include -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include -O3 -DNDEBUG -o CMakeFiles\\ejemplo_mpi_v2.dir\\Release\\main_v2.cpp.obj -c C:\\Users\\fing.labcom\\Music\\Paralela\\05_ejemplo_mpi\\main_v2.cpp",
+  "file": "C:/Users/fing.labcom/Music/Paralela/05_ejemplo_mpi/main_v2.cpp",
+  "output": "C:/Users/fing.labcom/Music/Paralela/05_ejemplo_mpi/build/CMakeFiles/ejemplo_mpi_v2.dir/Release/main_v2.cpp.obj"
 },
 {
-  "directory": "C:/Users/JPeter/Desktop/Paralela/05_ejemplo_mpi/build",
-  "command": "c:\\tools\\mingw64\\bin\\g++.exe -DFMT_SHARED -DCMAKE_INTDIR=\\\"Release\\\" -IC:/oneAPI/mpi/2021.18/include -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include -O3 -DNDEBUG -o CMakeFiles\\ejemplo_mpi_v2.dir\\Release\\matrices_v2.cpp.obj -c C:\\Users\\JPeter\\Desktop\\Paralela\\05_ejemplo_mpi\\matrices_v2.cpp",
-  "file": "C:/Users/JPeter/Desktop/Paralela/05_ejemplo_mpi/matrices_v2.cpp",
-  "output": "C:/Users/JPeter/Desktop/Paralela/05_ejemplo_mpi/build/CMakeFiles/ejemplo_mpi_v2.dir/Release/matrices_v2.cpp.obj"
+  "directory": "C:/Users/fing.labcom/Music/Paralela/05_ejemplo_mpi/build",
+  "command": "c:\\tools\\mingw64\\bin\\g++.exe -DFMT_SHARED -DCMAKE_INTDIR=\\\"Release\\\" -IC:/oneAPI/mpi/2021.17/include -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include -O3 -DNDEBUG -o CMakeFiles\\ejemplo_mpi_v2.dir\\Release\\matrices_v2.cpp.obj -c C:\\Users\\fing.labcom\\Music\\Paralela\\05_ejemplo_mpi\\matrices_v2.cpp",
+  "file": "C:/Users/fing.labcom/Music/Paralela/05_ejemplo_mpi/matrices_v2.cpp",
+  "output": "C:/Users/fing.labcom/Music/Paralela/05_ejemplo_mpi/build/CMakeFiles/ejemplo_mpi_v2.dir/Release/matrices_v2.cpp.obj"
 },
 {
-  "directory": "C:/Users/JPeter/Desktop/Paralela/05_ejemplo_mpi/build",
-  "command": "c:\\tools\\mingw64\\bin\\g++.exe -DFMT_SHARED -DCMAKE_INTDIR=\\\"RelWithDebInfo\\\" -IC:/oneAPI/mpi/2021.18/include -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include -O2 -g -DNDEBUG -o CMakeFiles\\ejemplo_mpi_v2.dir\\RelWithDebInfo\\main_v2.cpp.obj -c C:\\Users\\JPeter\\Desktop\\Paralela\\05_ejemplo_mpi\\main_v2.cpp",
-  "file": "C:/Users/JPeter/Desktop/Paralela/05_ejemplo_mpi/main_v2.cpp",
-  "output": "C:/Users/JPeter/Desktop/Paralela/05_ejemplo_mpi/build/CMakeFiles/ejemplo_mpi_v2.dir/RelWithDebInfo/main_v2.cpp.obj"
+  "directory": "C:/Users/fing.labcom/Music/Paralela/05_ejemplo_mpi/build",
+  "command": "c:\\tools\\mingw64\\bin\\g++.exe -DFMT_SHARED -DCMAKE_INTDIR=\\\"RelWithDebInfo\\\" -IC:/oneAPI/mpi/2021.17/include -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include -O2 -g -DNDEBUG -o CMakeFiles\\ejemplo_mpi_v2.dir\\RelWithDebInfo\\main_v2.cpp.obj -c C:\\Users\\fing.labcom\\Music\\Paralela\\05_ejemplo_mpi\\main_v2.cpp",
+  "file": "C:/Users/fing.labcom/Music/Paralela/05_ejemplo_mpi/main_v2.cpp",
+  "output": "C:/Users/fing.labcom/Music/Paralela/05_ejemplo_mpi/build/CMakeFiles/ejemplo_mpi_v2.dir/RelWithDebInfo/main_v2.cpp.obj"
 },
 {
-  "directory": "C:/Users/JPeter/Desktop/Paralela/05_ejemplo_mpi/build",
-  "command": "c:\\tools\\mingw64\\bin\\g++.exe -DFMT_SHARED -DCMAKE_INTDIR=\\\"RelWithDebInfo\\\" -IC:/oneAPI/mpi/2021.18/include -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include -O2 -g -DNDEBUG -o CMakeFiles\\ejemplo_mpi_v2.dir\\RelWithDebInfo\\matrices_v2.cpp.obj -c C:\\Users\\JPeter\\Desktop\\Paralela\\05_ejemplo_mpi\\matrices_v2.cpp",
-  "file": "C:/Users/JPeter/Desktop/Paralela/05_ejemplo_mpi/matrices_v2.cpp",
-  "output": "C:/Users/JPeter/Desktop/Paralela/05_ejemplo_mpi/build/CMakeFiles/ejemplo_mpi_v2.dir/RelWithDebInfo/matrices_v2.cpp.obj"
+  "directory": "C:/Users/fing.labcom/Music/Paralela/05_ejemplo_mpi/build",
+  "command": "c:\\tools\\mingw64\\bin\\g++.exe -DFMT_SHARED -DCMAKE_INTDIR=\\\"RelWithDebInfo\\\" -IC:/oneAPI/mpi/2021.17/include -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include -O2 -g -DNDEBUG -o CMakeFiles\\ejemplo_mpi_v2.dir\\RelWithDebInfo\\matrices_v2.cpp.obj -c C:\\Users\\fing.labcom\\Music\\Paralela\\05_ejemplo_mpi\\matrices_v2.cpp",
+  "file": "C:/Users/fing.labcom/Music/Paralela/05_ejemplo_mpi/matrices_v2.cpp",
+  "output": "C:/Users/fing.labcom/Music/Paralela/05_ejemplo_mpi/build/CMakeFiles/ejemplo_mpi_v2.dir/RelWithDebInfo/matrices_v2.cpp.obj"
+},
+{
+  "directory": "C:/Users/fing.labcom/Music/Paralela/05_ejemplo_mpi/build",
+  "command": "c:\\tools\\mingw64\\bin\\g++.exe -DFMT_SHARED -DCMAKE_INTDIR=\\\"Debug\\\" -IC:/oneAPI/mpi/2021.17/include -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include -g -o CMakeFiles\\ejemplo_mpi_v3.dir\\Debug\\main_v3.cpp.obj -c C:\\Users\\fing.labcom\\Music\\Paralela\\05_ejemplo_mpi\\main_v3.cpp",
+  "file": "C:/Users/fing.labcom/Music/Paralela/05_ejemplo_mpi/main_v3.cpp",
+  "output": "C:/Users/fing.labcom/Music/Paralela/05_ejemplo_mpi/build/CMakeFiles/ejemplo_mpi_v3.dir/Debug/main_v3.cpp.obj"
+},
+{
+  "directory": "C:/Users/fing.labcom/Music/Paralela/05_ejemplo_mpi/build",
+  "command": "c:\\tools\\mingw64\\bin\\g++.exe -DFMT_SHARED -DCMAKE_INTDIR=\\\"Debug\\\" -IC:/oneAPI/mpi/2021.17/include -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include -g -o CMakeFiles\\ejemplo_mpi_v3.dir\\Debug\\matrices_v3.cpp.obj -c C:\\Users\\fing.labcom\\Music\\Paralela\\05_ejemplo_mpi\\matrices_v3.cpp",
+  "file": "C:/Users/fing.labcom/Music/Paralela/05_ejemplo_mpi/matrices_v3.cpp",
+  "output": "C:/Users/fing.labcom/Music/Paralela/05_ejemplo_mpi/build/CMakeFiles/ejemplo_mpi_v3.dir/Debug/matrices_v3.cpp.obj"
+},
+{
+  "directory": "C:/Users/fing.labcom/Music/Paralela/05_ejemplo_mpi/build",
+  "command": "c:\\tools\\mingw64\\bin\\g++.exe -DFMT_SHARED -DCMAKE_INTDIR=\\\"Release\\\" -IC:/oneAPI/mpi/2021.17/include -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include -O3 -DNDEBUG -o CMakeFiles\\ejemplo_mpi_v3.dir\\Release\\main_v3.cpp.obj -c C:\\Users\\fing.labcom\\Music\\Paralela\\05_ejemplo_mpi\\main_v3.cpp",
+  "file": "C:/Users/fing.labcom/Music/Paralela/05_ejemplo_mpi/main_v3.cpp",
+  "output": "C:/Users/fing.labcom/Music/Paralela/05_ejemplo_mpi/build/CMakeFiles/ejemplo_mpi_v3.dir/Release/main_v3.cpp.obj"
+},
+{
+  "directory": "C:/Users/fing.labcom/Music/Paralela/05_ejemplo_mpi/build",
+  "command": "c:\\tools\\mingw64\\bin\\g++.exe -DFMT_SHARED -DCMAKE_INTDIR=\\\"Release\\\" -IC:/oneAPI/mpi/2021.17/include -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include -O3 -DNDEBUG -o CMakeFiles\\ejemplo_mpi_v3.dir\\Release\\matrices_v3.cpp.obj -c C:\\Users\\fing.labcom\\Music\\Paralela\\05_ejemplo_mpi\\matrices_v3.cpp",
+  "file": "C:/Users/fing.labcom/Music/Paralela/05_ejemplo_mpi/matrices_v3.cpp",
+  "output": "C:/Users/fing.labcom/Music/Paralela/05_ejemplo_mpi/build/CMakeFiles/ejemplo_mpi_v3.dir/Release/matrices_v3.cpp.obj"
+},
+{
+  "directory": "C:/Users/fing.labcom/Music/Paralela/05_ejemplo_mpi/build",
+  "command": "c:\\tools\\mingw64\\bin\\g++.exe -DFMT_SHARED -DCMAKE_INTDIR=\\\"RelWithDebInfo\\\" -IC:/oneAPI/mpi/2021.17/include -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include -O2 -g -DNDEBUG -o CMakeFiles\\ejemplo_mpi_v3.dir\\RelWithDebInfo\\main_v3.cpp.obj -c C:\\Users\\fing.labcom\\Music\\Paralela\\05_ejemplo_mpi\\main_v3.cpp",
+  "file": "C:/Users/fing.labcom/Music/Paralela/05_ejemplo_mpi/main_v3.cpp",
+  "output": "C:/Users/fing.labcom/Music/Paralela/05_ejemplo_mpi/build/CMakeFiles/ejemplo_mpi_v3.dir/RelWithDebInfo/main_v3.cpp.obj"
+},
+{
+  "directory": "C:/Users/fing.labcom/Music/Paralela/05_ejemplo_mpi/build",
+  "command": "c:\\tools\\mingw64\\bin\\g++.exe -DFMT_SHARED -DCMAKE_INTDIR=\\\"RelWithDebInfo\\\" -IC:/oneAPI/mpi/2021.17/include -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include -O2 -g -DNDEBUG -o CMakeFiles\\ejemplo_mpi_v3.dir\\RelWithDebInfo\\matrices_v3.cpp.obj -c C:\\Users\\fing.labcom\\Music\\Paralela\\05_ejemplo_mpi\\matrices_v3.cpp",
+  "file": "C:/Users/fing.labcom/Music/Paralela/05_ejemplo_mpi/matrices_v3.cpp",
+  "output": "C:/Users/fing.labcom/Music/Paralela/05_ejemplo_mpi/build/CMakeFiles/ejemplo_mpi_v3.dir/RelWithDebInfo/matrices_v3.cpp.obj"
 }
 ]

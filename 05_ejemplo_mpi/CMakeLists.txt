@@ -9,7 +9,7 @@ project(ejemploMPI)
 find_package(fmt CONFIG REQUIRED)
 
 #config MPI
-set(MPI_ROOT "C:/oneAPI/mpi/2021.18")
+set(MPI_ROOT "C:/oneAPI/mpi/2021.17")
 set(MPI_INCLUDE "${MPI_ROOT}/include")
 
 # Libreria para enlazar
@@ -37,4 +37,15 @@ add_custom_command(TARGET ejemplo_mpi_v2 POST_BUILD
     COMMAND ${CMAKE_COMMAND} -E copy_if_different
     "${MPI_ROOT}/bin/impi.dll"
     $<TARGET_FILE_DIR:ejemplo_mpi_v2>
+)
+
+# Version 3 - Comunicacion colectiva (Bcast, Scatter, Gather)
+add_executable(ejemplo_mpi_v3 main_v3.cpp matrices_v3.cpp)
+
+target_link_libraries(ejemplo_mpi_v3 PRIVATE fmt::fmt ${MPI_LIB}/impi.lib )
+
+add_custom_command(TARGET ejemplo_mpi_v3 POST_BUILD
+    COMMAND ${CMAKE_COMMAND} -E copy_if_different
+    "${MPI_ROOT}/bin/impi.dll"
+    $<TARGET_FILE_DIR:ejemplo_mpi_v3>
 )
