@@ -62,47 +62,22 @@ uint32_t acotado_2(double x, double y)
     return 0xFF000000; // NEGRO
 }
 
-void julia_serial_1(double x_min, double y_min, double x_max, double y_max, uint32_t width, uint32_t height, uint32_t *pixel_buffer)
-{
+void julia_mpi(double x_min, double y_min, double x_max, double y_max,
+    uint32_t width, uint32_t height,
+    uint32_t* row_start, uint32_t row_end,
+    uint32_t* pixel_buffer) {
     double dx = (x_max - x_min) / width;
     double dy = (y_max - y_min) / height;
 
-    for (int i = 0; i < width; i++)
-    {
-        for (int j = 0; j < height; j++)
-        {
+    for(int j = *row_start; j < row_end; j++) {
+        for(int i=0;i<width;i++) {
             // z = x+yi = (x,y)
-            double x = x_min + i * dx;
-            double y = y_max - j * dy;
+            double x = x_min+i*dx;
+            double y = y_max-j*dy;
 
-            std::complex<double> z(x, y);
+            auto color = acotado_2(x, y);
 
-            auto color = acotado_1(z); // auto = var (java)
-
-            pixel_buffer[j * width + i] = color;
-        }
-    }
-}
-
-// Segunda versión
-void julia_serial_2(double x_min, double y_min, double x_max, double y_max, uint32_t width, uint32_t height, uint32_t *pixel_buffer)
-{
-    double dx = (x_max - x_min) / width;
-    double dy = (y_max - y_min) / height;
-
-    for (int i = 0; i < width; i++)
-    {
-        for (int j = 0; j < height; j++)
-        {
-            // z = x+yi = (x,y)
-            double x = x_min + i * dx;
-            double y = y_max - j * dy;
-
-            std::complex<double> z(x, y);
-
-            auto color = acotado_2(x, y); // auto = var (java)
-
-            pixel_buffer[j * width + i] = color;
+            pixel_buffer[j*width+i] = color;
         }
     }
 }
