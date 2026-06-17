@@ -1,0 +1,6 @@
+# ninja log v7
+41	215	8034032885087417	CMakeFiles/fractalmpi.dir/Debug/palette.cpp.obj	f2c603d5799d6a7
+39	397	8034032885062441	CMakeFiles/fractalmpi.dir/Debug/fractal_mpi.cpp.obj	14308dcb1fc4e444
+44	445	8034032885107422	CMakeFiles/fractalmpi.dir/Debug/draw_text.cpp.obj	52cf054592246703
+36	1808	8034032885032432	CMakeFiles/fractalmpi.dir/Debug/main.cpp.obj	f9ed2d125317279a
+1810	4756	8034032902773370	Debug/fractalmpi.exe	375ea38bebda030c

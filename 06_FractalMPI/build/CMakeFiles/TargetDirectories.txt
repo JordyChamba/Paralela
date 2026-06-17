@@ -1,0 +1,3 @@
+C:/Users/fing.labcom/Music/Paralela/06_FractalMPI/build/CMakeFiles/fractalmpi.dir
+C:/Users/fing.labcom/Music/Paralela/06_FractalMPI/build/CMakeFiles/edit_cache.dir
+C:/Users/fing.labcom/Music/Paralela/06_FractalMPI/build/CMakeFiles/rebuild_cache.dir
