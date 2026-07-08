@@ -6,9 +6,9 @@
 
 include CMakeFiles/impl-Debug.ninja
 
-build cuda01: phony Debug\cuda01.exe
+build FractalCuda: phony Debug\FractalCuda.exe
 
-build cuda01.exe: phony Debug\cuda01.exe
+build FractalCuda.exe: phony Debug\FractalCuda.exe
 
 
 #############################################

@@ -6,9 +6,9 @@
 
 include CMakeFiles/impl-Release.ninja
 
-build cuda01: phony Release\cuda01.exe
+build FractalCuda: phony Release\FractalCuda.exe
 
-build cuda01.exe: phony Release\cuda01.exe
+build FractalCuda.exe: phony Release\FractalCuda.exe
 
 
 #############################################

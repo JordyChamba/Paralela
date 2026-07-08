@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: Cuda01
+# Project: FractalCuda
 # Configurations: Debug, Release, RelWithDebInfo
 # =============================================================================
 
@@ -35,80 +35,80 @@ CONFIGURATION = Debug
 include CMakeFiles\common.ninja
 
 # =============================================================================
-# Object build statements for EXECUTABLE target cuda01
+# Object build statements for EXECUTABLE target FractalCuda
 
 
 #############################################
-# Order-only phony target for cuda01
+# Order-only phony target for FractalCuda
 
-build cmake_object_order_depends_target_cuda01_DEBUG: phony || .
+build cmake_object_order_depends_target_FractalCuda_DEBUG: phony || .
 
-build CMakeFiles\cuda01.dir\Debug\main.cpp.obj: CXX_COMPILER__cuda01_unscanned_Debug C$:\Users\fing.labcom\Music\Paralela\08.Fractal_Cuda\main.cpp || cmake_object_order_depends_target_cuda01_DEBUG
+build CMakeFiles\FractalCuda.dir\Debug\main.cpp.obj: CXX_COMPILER__FractalCuda_unscanned_Debug C$:\Users\fing.labcom\Music\Paralela\08.Fractal_Cuda\main.cpp || cmake_object_order_depends_target_FractalCuda_DEBUG
   CONFIG = Debug
   DEFINES = -DFMT_SHARED -DCMAKE_INTDIR=\"Debug\"
   FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /utf-8
   INCLUDES = -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.3\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.3\include\cccl" -external:IC:\tools\vcpkg-2026.03.18\installed\x64-windows\include -external:W0
-  OBJECT_DIR = CMakeFiles\cuda01.dir\Debug
-  OBJECT_FILE_DIR = CMakeFiles\cuda01.dir\Debug
-  TARGET_COMPILE_PDB = CMakeFiles\cuda01.dir\Debug\
-  TARGET_PDB = Debug\cuda01.pdb
-  TARGET_SUPPORT_DIR = CMakeFiles\cuda01.dir
+  OBJECT_DIR = CMakeFiles\FractalCuda.dir\Debug
+  OBJECT_FILE_DIR = CMakeFiles\FractalCuda.dir\Debug
+  TARGET_COMPILE_PDB = CMakeFiles\FractalCuda.dir\Debug\
+  TARGET_PDB = Debug\FractalCuda.pdb
+  TARGET_SUPPORT_DIR = CMakeFiles\FractalCuda.dir
 
-build CMakeFiles\cuda01.dir\Debug\kernel.cu.obj: CUDA_COMPILER__cuda01_unscanned_Debug C$:\Users\fing.labcom\Music\Paralela\08.Fractal_Cuda\kernel.cu || cmake_object_order_depends_target_cuda01_DEBUG
+build CMakeFiles\FractalCuda.dir\Debug\palette.cpp.obj: CXX_COMPILER__FractalCuda_unscanned_Debug C$:\Users\fing.labcom\Music\Paralela\08.Fractal_Cuda\palette.cpp || cmake_object_order_depends_target_FractalCuda_DEBUG
   CONFIG = Debug
   DEFINES = -DFMT_SHARED -DCMAKE_INTDIR=\"Debug\"
-  DEP_FILE = CMakeFiles\cuda01.dir\Debug\kernel.cu.obj.d
-  FLAGS = -D_WINDOWS -Xcompiler=" /GR /EHsc" -Xcompiler=" -Zi -Ob0 -Od /RTC1" -std=c++17 "--generate-code=arch=compute_75,code=[compute_75,sm_75]" -Xcompiler=-MDd
+  FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /utf-8
+  INCLUDES = -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.3\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.3\include\cccl" -external:IC:\tools\vcpkg-2026.03.18\installed\x64-windows\include -external:W0
+  OBJECT_DIR = CMakeFiles\FractalCuda.dir\Debug
+  OBJECT_FILE_DIR = CMakeFiles\FractalCuda.dir\Debug
+  TARGET_COMPILE_PDB = CMakeFiles\FractalCuda.dir\Debug\
+  TARGET_PDB = Debug\FractalCuda.pdb
+  TARGET_SUPPORT_DIR = CMakeFiles\FractalCuda.dir
+
+build CMakeFiles\FractalCuda.dir\Debug\kernel.cu.obj: CUDA_COMPILER__FractalCuda_unscanned_Debug C$:\Users\fing.labcom\Music\Paralela\08.Fractal_Cuda\kernel.cu || cmake_object_order_depends_target_FractalCuda_DEBUG
+  CONFIG = Debug
+  DEFINES = -DFMT_SHARED -DCMAKE_INTDIR=\"Debug\"
+  DEP_FILE = CMakeFiles\FractalCuda.dir\Debug\kernel.cu.obj.d
+  FLAGS = -D_WINDOWS -Xcompiler=" /GR /EHsc" -Xcompiler=" -Zi -Ob0 -Od /RTC1" -std=c++17 -Xcompiler=-MDd
   INCLUDES = -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.3\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.3\include\cccl" -isystem C:\tools\vcpkg-2026.03.18\installed\x64-windows\include
-  OBJECT_DIR = CMakeFiles\cuda01.dir\Debug
-  OBJECT_FILE_DIR = CMakeFiles\cuda01.dir\Debug
-  TARGET_COMPILE_PDB = CMakeFiles\cuda01.dir\Debug\
-  TARGET_PDB = Debug\cuda01.pdb
-  TARGET_SUPPORT_DIR = CMakeFiles\cuda01.dir
-
-build CMakeFiles\cuda01.dir\Debug\palette.cpp.obj: CXX_COMPILER__cuda01_unscanned_Debug C$:\Users\fing.labcom\Music\Paralela\08.Fractal_Cuda\palette.cpp || cmake_object_order_depends_target_cuda01_DEBUG
-  CONFIG = Debug
-  DEFINES = -DFMT_SHARED -DCMAKE_INTDIR=\"Debug\"
-  FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /utf-8
-  INCLUDES = -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.3\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.3\include\cccl" -external:IC:\tools\vcpkg-2026.03.18\installed\x64-windows\include -external:W0
-  OBJECT_DIR = CMakeFiles\cuda01.dir\Debug
-  OBJECT_FILE_DIR = CMakeFiles\cuda01.dir\Debug
-  TARGET_COMPILE_PDB = CMakeFiles\cuda01.dir\Debug\
-  TARGET_PDB = Debug\cuda01.pdb
-  TARGET_SUPPORT_DIR = CMakeFiles\cuda01.dir
+  OBJECT_DIR = CMakeFiles\FractalCuda.dir\Debug
+  OBJECT_FILE_DIR = CMakeFiles\FractalCuda.dir\Debug
+  TARGET_COMPILE_PDB = CMakeFiles\FractalCuda.dir\Debug\
+  TARGET_PDB = Debug\FractalCuda.pdb
+  TARGET_SUPPORT_DIR = CMakeFiles\FractalCuda.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target cuda01
+# Link build statements for EXECUTABLE target FractalCuda
 
 
 #############################################
-# Link the executable Debug\cuda01.exe
+# Link the executable Debug\FractalCuda.exe
 
-build Debug\cuda01.exe: CXX_EXECUTABLE_LINKER__cuda01_Debug CMakeFiles\cuda01.dir\Debug\main.cpp.obj CMakeFiles\cuda01.dir\Debug\kernel.cu.obj CMakeFiles\cuda01.dir\Debug\palette.cpp.obj | C$:\tools\vcpkg-2026.03.18\installed\x64-windows\debug\lib\fmtd.lib C$:\tools\vcpkg-2026.03.18\installed\x64-windows\debug\lib\sfml-graphics-d.lib C$:\tools\vcpkg-2026.03.18\installed\x64-windows\debug\lib\sfml-window-d.lib C$:\tools\vcpkg-2026.03.18\installed\x64-windows\debug\lib\sfml-system-d.lib
+build Debug\FractalCuda.exe: CXX_EXECUTABLE_LINKER__FractalCuda_Debug CMakeFiles\FractalCuda.dir\Debug\main.cpp.obj CMakeFiles\FractalCuda.dir\Debug\palette.cpp.obj CMakeFiles\FractalCuda.dir\Debug\kernel.cu.obj | C$:\tools\vcpkg-2026.03.18\installed\x64-windows\debug\lib\fmtd.lib C$:\tools\vcpkg-2026.03.18\installed\x64-windows\debug\lib\sfml-graphics-d.lib C$:\tools\vcpkg-2026.03.18\installed\x64-windows\debug\lib\sfml-window-d.lib C$:\tools\vcpkg-2026.03.18\installed\x64-windows\debug\lib\sfml-network-d.lib C$:\tools\vcpkg-2026.03.18\installed\x64-windows\debug\lib\sfml-audio-d.lib C$:\tools\vcpkg-2026.03.18\installed\x64-windows\debug\lib\sfml-system-d.lib
   CONFIG = Debug
   FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
-  LINK_LIBRARIES = C:\tools\vcpkg-2026.03.18\installed\x64-windows\debug\lib\fmtd.lib  C:\tools\vcpkg-2026.03.18\installed\x64-windows\debug\lib\sfml-graphics-d.lib  C:\tools\vcpkg-2026.03.18\installed\x64-windows\debug\lib\sfml-window-d.lib  C:\tools\vcpkg-2026.03.18\installed\x64-windows\debug\lib\sfml-system-d.lib  cudadevrt.lib  cudart.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  LINK_LIBRARIES = C:\tools\vcpkg-2026.03.18\installed\x64-windows\debug\lib\fmtd.lib  C:\tools\vcpkg-2026.03.18\installed\x64-windows\debug\lib\sfml-graphics-d.lib  C:\tools\vcpkg-2026.03.18\installed\x64-windows\debug\lib\sfml-window-d.lib  C:\tools\vcpkg-2026.03.18\installed\x64-windows\debug\lib\sfml-network-d.lib  C:\tools\vcpkg-2026.03.18\installed\x64-windows\debug\lib\sfml-audio-d.lib  C:\tools\vcpkg-2026.03.18\installed\x64-windows\debug\lib\sfml-system-d.lib  cudadevrt.lib  cudart.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
   LINK_PATH = -LIBPATH:C:\PROGRA~1\NVIDIA~2\CUDA\v13.3\lib\x64
-  OBJECT_DIR = CMakeFiles\cuda01.dir\Debug
-  POST_BUILD = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\fing.labcom\Music\Paralela\08.Fractal_Cuda\build && C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/tools/vcpkg-2026.03.18/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Users/fing.labcom/Music/Paralela/08.Fractal_Cuda/build/Debug/cuda01.exe -installedDir C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/bin -OutVariable out"
+  OBJECT_DIR = CMakeFiles\FractalCuda.dir\Debug
+  POST_BUILD = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\fing.labcom\Music\Paralela\08.Fractal_Cuda\build && C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/tools/vcpkg-2026.03.18/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Users/fing.labcom/Music/Paralela/08.Fractal_Cuda/build/Debug/FractalCuda.exe -installedDir C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/bin -OutVariable out"
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\cuda01.dir\Debug\
-  TARGET_FILE = Debug\cuda01.exe
-  TARGET_IMPLIB = Debug\cuda01.lib
-  TARGET_PDB = Debug\cuda01.pdb
-  TARGET_SUPPORT_DIR = CMakeFiles\cuda01.dir
+  TARGET_COMPILE_PDB = CMakeFiles\FractalCuda.dir\Debug\
+  TARGET_FILE = Debug\FractalCuda.exe
+  TARGET_IMPLIB = Debug\FractalCuda.lib
+  TARGET_PDB = Debug\FractalCuda.pdb
+  TARGET_SUPPORT_DIR = CMakeFiles\FractalCuda.dir
 
-build cuda01.exe$:Debug: phony Debug\cuda01.exe
+build FractalCuda.exe$:Debug: phony Debug\FractalCuda.exe
 
-build cuda01$:Debug: phony Debug\cuda01.exe
+build FractalCuda$:Debug: phony Debug\FractalCuda.exe
 
 
 #############################################
 # Folder: C:/Users/fing.labcom/Music/Paralela/08.Fractal_Cuda/build
 
-build all$:Debug: phony Debug\cuda01.exe
+build all$:Debug: phony Debug\FractalCuda.exe
 
 
 #############################################

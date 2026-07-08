@@ -8784,9 +8784,9 @@ events:
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/tools/mingw64/bin/"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/tools/mingw64/sbin/"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/tools/mingw64/"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/Cuda01/bin/"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/Cuda01/sbin/"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/Cuda01/"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/FractalCuda/bin/"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/FractalCuda/sbin/"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/FractalCuda/"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/bin/"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/sbin/"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/"
@@ -8859,9 +8859,9 @@ events:
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/tools/mingw64/bin/"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/tools/mingw64/sbin/"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/tools/mingw64/"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/Cuda01/bin/"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/Cuda01/sbin/"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/Cuda01/"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/FractalCuda/bin/"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/FractalCuda/sbin/"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/FractalCuda/"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/bin/"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/sbin/"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/"
@@ -8934,9 +8934,9 @@ events:
       - "C:/tools/mingw64/bin/"
       - "C:/tools/mingw64/sbin/"
       - "C:/tools/mingw64/"
-      - "C:/Program Files (x86)/Cuda01/bin/"
-      - "C:/Program Files (x86)/Cuda01/sbin/"
-      - "C:/Program Files (x86)/Cuda01/"
+      - "C:/Program Files (x86)/FractalCuda/bin/"
+      - "C:/Program Files (x86)/FractalCuda/sbin/"
+      - "C:/Program Files (x86)/FractalCuda/"
     searched_directories:
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/bin/rc.com"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/bin/rc.exe"
@@ -9154,15 +9154,15 @@ events:
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/tools/mingw64/rc.com"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/tools/mingw64/rc.exe"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/tools/mingw64/rc"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/Cuda01/bin/rc.com"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/Cuda01/bin/rc.exe"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/Cuda01/bin/rc"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/Cuda01/sbin/rc.com"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/Cuda01/sbin/rc.exe"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/Cuda01/sbin/rc"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/Cuda01/rc.com"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/Cuda01/rc.exe"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/Cuda01/rc"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/FractalCuda/bin/rc.com"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/FractalCuda/bin/rc.exe"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/FractalCuda/bin/rc"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/FractalCuda/sbin/rc.com"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/FractalCuda/sbin/rc.exe"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/FractalCuda/sbin/rc"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/FractalCuda/rc.com"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/FractalCuda/rc.exe"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/FractalCuda/rc"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/bin/rc.com"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/bin/rc.exe"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/bin/rc"
@@ -9379,15 +9379,15 @@ events:
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/tools/mingw64/rc.com"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/tools/mingw64/rc.exe"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/tools/mingw64/rc"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/Cuda01/bin/rc.com"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/Cuda01/bin/rc.exe"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/Cuda01/bin/rc"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/Cuda01/sbin/rc.com"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/Cuda01/sbin/rc.exe"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/Cuda01/sbin/rc"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/Cuda01/rc.com"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/Cuda01/rc.exe"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/Cuda01/rc"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/FractalCuda/bin/rc.com"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/FractalCuda/bin/rc.exe"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/FractalCuda/bin/rc"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/FractalCuda/sbin/rc.com"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/FractalCuda/sbin/rc.exe"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/FractalCuda/sbin/rc"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/FractalCuda/rc.com"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/FractalCuda/rc.exe"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/FractalCuda/rc"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/bin/rc.com"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/bin/rc.exe"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/bin/rc"
@@ -9504,12 +9504,12 @@ events:
         - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
         - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
         - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\vcpkg"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Cuda01"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/FractalCuda"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/tools/mingw64"
-        - "C:/Program Files (x86)/Cuda01"
+        - "C:/Program Files (x86)/FractalCuda"
       CMAKE_FIND_ROOT_PATH: "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug;C:/tools/vcpkg-2026.03.18/installed/x64-windows"
   -
     kind: "try_compile-v1"
@@ -9520,8 +9520,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/fing.labcom/Music/Paralela/08.Fractal_Cuda/build/CMakeFiles/CMakeScratch/TryCompile-1jsa8k"
-      binary: "C:/Users/fing.labcom/Music/Paralela/08.Fractal_Cuda/build/CMakeFiles/CMakeScratch/TryCompile-1jsa8k"
+      source: "C:/Users/fing.labcom/Music/Paralela/08.Fractal_Cuda/build/CMakeFiles/CMakeScratch/TryCompile-vrmzu6"
+      binary: "C:/Users/fing.labcom/Music/Paralela/08.Fractal_Cuda/build/CMakeFiles/CMakeScratch/TryCompile-vrmzu6"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
@@ -9535,11 +9535,11 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/fing.labcom/Music/Paralela/08.Fractal_Cuda/build/CMakeFiles/CMakeScratch/TryCompile-1jsa8k'
+        Change Dir: 'C:/Users/fing.labcom/Music/Paralela/08.Fractal_Cuda/build/CMakeFiles/CMakeScratch/TryCompile-vrmzu6'
         
-        Run Build Command(s): C:/tools/mingw64/bin/ninja.exe -v cmTC_b1b30
-        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_MBCS -DCMAKE_INTDIR=\\"Debug\\"  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_b1b30.dir\\Debug\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_b1b30.dir\\Debug\\ /FS -c C:\\tools\\mingw64\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\tools\\mingw64\\bin\\cmake.exe -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_b1b30.dir\\Debug --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_b1b30.dir\\Debug\\CMakeCCompilerABI.c.obj  /out:Debug\\cmTC_b1b30.exe /implib:Debug\\cmTC_b1b30.lib /pdb:Debug\\cmTC_b1b30.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): C:/tools/mingw64/bin/ninja.exe -v cmTC_c24b0
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_MBCS -DCMAKE_INTDIR=\\"Debug\\"  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_c24b0.dir\\Debug\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_c24b0.dir\\Debug\\ /FS -c C:\\tools\\mingw64\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\tools\\mingw64\\bin\\cmake.exe -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_c24b0.dir\\Debug --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_c24b0.dir\\Debug\\CMakeCCompilerABI.c.obj  /out:Debug\\cmTC_c24b0.exe /implib:Debug\\cmTC_c24b0.lib /pdb:Debug\\cmTC_c24b0.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
@@ -9579,8 +9579,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/fing.labcom/Music/Paralela/08.Fractal_Cuda/build/CMakeFiles/CMakeScratch/TryCompile-632ql1"
-      binary: "C:/Users/fing.labcom/Music/Paralela/08.Fractal_Cuda/build/CMakeFiles/CMakeScratch/TryCompile-632ql1"
+      source: "C:/Users/fing.labcom/Music/Paralela/08.Fractal_Cuda/build/CMakeFiles/CMakeScratch/TryCompile-aob2ds"
+      binary: "C:/Users/fing.labcom/Music/Paralela/08.Fractal_Cuda/build/CMakeFiles/CMakeScratch/TryCompile-aob2ds"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -9595,11 +9595,11 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/fing.labcom/Music/Paralela/08.Fractal_Cuda/build/CMakeFiles/CMakeScratch/TryCompile-632ql1'
+        Change Dir: 'C:/Users/fing.labcom/Music/Paralela/08.Fractal_Cuda/build/CMakeFiles/CMakeScratch/TryCompile-aob2ds'
         
-        Run Build Command(s): C:/tools/mingw64/bin/ninja.exe -v cmTC_43418
-        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -D_MBCS -DCMAKE_INTDIR=\\"Debug\\"  /DWIN32 /D_WINDOWS /GR /EHsc  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_43418.dir\\Debug\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_43418.dir\\Debug\\ /FS -c C:\\tools\\mingw64\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\tools\\mingw64\\bin\\cmake.exe -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_43418.dir\\Debug --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_43418.dir\\Debug\\CMakeCXXCompilerABI.cpp.obj  /out:Debug\\cmTC_43418.exe /implib:Debug\\cmTC_43418.lib /pdb:Debug\\cmTC_43418.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): C:/tools/mingw64/bin/ninja.exe -v cmTC_18c3b
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -D_MBCS -DCMAKE_INTDIR=\\"Debug\\"  /DWIN32 /D_WINDOWS /GR /EHsc  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_18c3b.dir\\Debug\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_18c3b.dir\\Debug\\ /FS -c C:\\tools\\mingw64\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\tools\\mingw64\\bin\\cmake.exe -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_18c3b.dir\\Debug --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_18c3b.dir\\Debug\\CMakeCXXCompilerABI.cpp.obj  /out:Debug\\cmTC_18c3b.exe /implib:Debug\\cmTC_18c3b.lib /pdb:Debug\\cmTC_18c3b.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
@@ -9635,7 +9635,7 @@ events:
     backtrace:
       - "C:/tools/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompiler.cmake:54 (find_program)"
       - "C:/tools/mingw64/share/cmake-4.3/Modules/CMakeDetermineCUDACompiler.cmake:39 (_cmake_find_compiler)"
-      - "CMakeLists.txt:12 (enable_language)"
+      - "CMakeLists.txt:6 (enable_language)"
     mode: "program"
     variable: "CMAKE_CUDA_COMPILER"
     description: "CUDA compiler"
@@ -9739,19 +9739,19 @@ events:
         - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
         - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
         - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\vcpkg"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Cuda01"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/FractalCuda"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/tools/mingw64"
-        - "C:/Program Files (x86)/Cuda01"
+        - "C:/Program Files (x86)/FractalCuda"
       CMAKE_FIND_ROOT_PATH: "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug;C:/tools/vcpkg-2026.03.18/installed/x64-windows"
   -
     kind: "find-v1"
     backtrace:
       - "C:/tools/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompiler.cmake:63 (find_program)"
       - "C:/tools/mingw64/share/cmake-4.3/Modules/CMakeDetermineCUDACompiler.cmake:39 (_cmake_find_compiler)"
-      - "CMakeLists.txt:12 (enable_language)"
+      - "CMakeLists.txt:6 (enable_language)"
     mode: "program"
     variable: "CMAKE_CUDA_COMPILER"
     description: "CUDA compiler"
@@ -10363,19 +10363,19 @@ events:
         - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
         - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
         - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\vcpkg"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Cuda01"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/FractalCuda"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/tools/mingw64"
-        - "C:/Program Files (x86)/Cuda01"
+        - "C:/Program Files (x86)/FractalCuda"
       CMAKE_FIND_ROOT_PATH: "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug;C:/tools/vcpkg-2026.03.18/installed/x64-windows"
   -
     kind: "message-v1"
     backtrace:
       - "C:/tools/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:1296 (message)"
       - "C:/tools/mingw64/share/cmake-4.3/Modules/CMakeDetermineCUDACompiler.cmake:99 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
-      - "CMakeLists.txt:12 (enable_language)"
+      - "CMakeLists.txt:6 (enable_language)"
     message: |
       Checking whether the CUDA compiler is NVIDIA using "" matched "nvcc: [^
       ]+ Cuda compiler driver":
@@ -10392,7 +10392,7 @@ events:
       - "C:/tools/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
       - "C:/tools/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:53 (__determine_compiler_id_test)"
       - "C:/tools/mingw64/share/cmake-4.3/Modules/CMakeDetermineCUDACompiler.cmake:163 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:12 (enable_language)"
+      - "CMakeLists.txt:6 (enable_language)"
     mode: "file"
     variable: "src_in"
     description: "Path to a file."
@@ -10468,12 +10468,12 @@ events:
         - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
         - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
         - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\vcpkg"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Cuda01"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/FractalCuda"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/tools/mingw64"
-        - "C:/Program Files (x86)/Cuda01"
+        - "C:/Program Files (x86)/FractalCuda"
       CMAKE_FIND_ROOT_PATH: "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug;C:/tools/vcpkg-2026.03.18/installed/x64-windows"
       ENV{INCLUDE}:
         - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include"
@@ -10491,7 +10491,7 @@ events:
       - "C:/tools/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "C:/tools/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:53 (__determine_compiler_id_test)"
       - "C:/tools/mingw64/share/cmake-4.3/Modules/CMakeDetermineCUDACompiler.cmake:163 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:12 (enable_language)"
+      - "CMakeLists.txt:6 (enable_language)"
     message: |
       Compiling the CUDA compiler identification source file "CMakeCUDACompilerId.cu" succeeded.
       Compiler: C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.3/bin/nvcc.exe 
@@ -10557,7 +10557,7 @@ events:
       - "C:/tools/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:1347 (message)"
       - "C:/tools/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
       - "C:/tools/mingw64/share/cmake-4.3/Modules/CMakeDetermineCUDACompiler.cmake:163 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:12 (enable_language)"
+      - "CMakeLists.txt:6 (enable_language)"
     message: |
       Detecting CUDA compiler /showIncludes prefix:
         nvcc fatal   : Don't know what to do with 'C:/c'
@@ -10568,7 +10568,7 @@ events:
       - "C:/tools/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:1347 (message)"
       - "C:/tools/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
       - "C:/tools/mingw64/share/cmake-4.3/Modules/CMakeDetermineCUDACompiler.cmake:163 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:12 (enable_language)"
+      - "CMakeLists.txt:6 (enable_language)"
     message: |
       Detecting CUDA compiler /showIncludes prefix:
         nvcc fatal   : Don't know what to do with 'C:/c'
@@ -10580,7 +10580,7 @@ events:
       - "C:/tools/mingw64/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
       - "C:/tools/mingw64/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
       - "C:/tools/mingw64/share/cmake-4.3/Modules/CMakeDetermineCUDACompiler.cmake:186 (include)"
-      - "CMakeLists.txt:12 (enable_language)"
+      - "CMakeLists.txt:6 (enable_language)"
     mode: "program"
     variable: "_CMAKE_TOOL_WITH_PATH"
     description: "Path to a program."
@@ -10658,9 +10658,9 @@ events:
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/tools/mingw64/bin/"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/tools/mingw64/sbin/"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/tools/mingw64/"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/Cuda01/bin/"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/Cuda01/sbin/"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/Cuda01/"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/FractalCuda/bin/"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/FractalCuda/sbin/"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/FractalCuda/"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/vcpackages/"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
@@ -10724,9 +10724,9 @@ events:
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/tools/mingw64/bin/"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/tools/mingw64/sbin/"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/tools/mingw64/"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/Cuda01/bin/"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/Cuda01/sbin/"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/Cuda01/"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/FractalCuda/bin/"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/FractalCuda/sbin/"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/FractalCuda/"
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/vcpackages/"
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
@@ -10790,9 +10790,9 @@ events:
       - "C:/tools/mingw64/bin/"
       - "C:/tools/mingw64/sbin/"
       - "C:/tools/mingw64/"
-      - "C:/Program Files (x86)/Cuda01/bin/"
-      - "C:/Program Files (x86)/Cuda01/sbin/"
-      - "C:/Program Files (x86)/Cuda01/"
+      - "C:/Program Files (x86)/FractalCuda/bin/"
+      - "C:/Program Files (x86)/FractalCuda/sbin/"
+      - "C:/Program Files (x86)/FractalCuda/"
     searched_directories:
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.com"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.exe"
@@ -10983,15 +10983,15 @@ events:
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/tools/mingw64/lld-link.com"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/tools/mingw64/lld-link.exe"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/tools/mingw64/lld-link"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/Cuda01/bin/lld-link.com"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/Cuda01/bin/lld-link.exe"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/Cuda01/bin/lld-link"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/Cuda01/sbin/lld-link.com"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/Cuda01/sbin/lld-link.exe"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/Cuda01/sbin/lld-link"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/Cuda01/lld-link.com"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/Cuda01/lld-link.exe"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/Cuda01/lld-link"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/FractalCuda/bin/lld-link.com"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/FractalCuda/bin/lld-link.exe"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/FractalCuda/bin/lld-link"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/FractalCuda/sbin/lld-link.com"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/FractalCuda/sbin/lld-link.exe"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/FractalCuda/sbin/lld-link"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/FractalCuda/lld-link.com"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/FractalCuda/lld-link.exe"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/FractalCuda/lld-link"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.com"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.exe"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link"
@@ -11181,15 +11181,15 @@ events:
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/tools/mingw64/lld-link.com"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/tools/mingw64/lld-link.exe"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/tools/mingw64/lld-link"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/Cuda01/bin/lld-link.com"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/Cuda01/bin/lld-link.exe"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/Cuda01/bin/lld-link"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/Cuda01/sbin/lld-link.com"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/Cuda01/sbin/lld-link.exe"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/Cuda01/sbin/lld-link"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/Cuda01/lld-link.com"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/Cuda01/lld-link.exe"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/Cuda01/lld-link"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/FractalCuda/bin/lld-link.com"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/FractalCuda/bin/lld-link.exe"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/FractalCuda/bin/lld-link"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/FractalCuda/sbin/lld-link.com"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/FractalCuda/sbin/lld-link.exe"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/FractalCuda/sbin/lld-link"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/FractalCuda/lld-link.com"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/FractalCuda/lld-link.exe"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/FractalCuda/lld-link"
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.com"
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.exe"
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link"
@@ -11379,15 +11379,15 @@ events:
       - "C:/tools/mingw64/lld-link.com"
       - "C:/tools/mingw64/lld-link.exe"
       - "C:/tools/mingw64/lld-link"
-      - "C:/Program Files (x86)/Cuda01/bin/lld-link.com"
-      - "C:/Program Files (x86)/Cuda01/bin/lld-link.exe"
-      - "C:/Program Files (x86)/Cuda01/bin/lld-link"
-      - "C:/Program Files (x86)/Cuda01/sbin/lld-link.com"
-      - "C:/Program Files (x86)/Cuda01/sbin/lld-link.exe"
-      - "C:/Program Files (x86)/Cuda01/sbin/lld-link"
-      - "C:/Program Files (x86)/Cuda01/lld-link.com"
-      - "C:/Program Files (x86)/Cuda01/lld-link.exe"
-      - "C:/Program Files (x86)/Cuda01/lld-link"
+      - "C:/Program Files (x86)/FractalCuda/bin/lld-link.com"
+      - "C:/Program Files (x86)/FractalCuda/bin/lld-link.exe"
+      - "C:/Program Files (x86)/FractalCuda/bin/lld-link"
+      - "C:/Program Files (x86)/FractalCuda/sbin/lld-link.com"
+      - "C:/Program Files (x86)/FractalCuda/sbin/lld-link.exe"
+      - "C:/Program Files (x86)/FractalCuda/sbin/lld-link"
+      - "C:/Program Files (x86)/FractalCuda/lld-link.com"
+      - "C:/Program Files (x86)/FractalCuda/lld-link.exe"
+      - "C:/Program Files (x86)/FractalCuda/lld-link"
     found: false
     search_context:
       CMAKE_PROGRAM_PATH:
@@ -11452,19 +11452,19 @@ events:
         - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
         - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
         - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\vcpkg"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Cuda01"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/FractalCuda"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/tools/mingw64"
-        - "C:/Program Files (x86)/Cuda01"
+        - "C:/Program Files (x86)/FractalCuda"
       CMAKE_FIND_ROOT_PATH: "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug;C:/tools/vcpkg-2026.03.18/installed/x64-windows"
   -
     kind: "message-v1"
     backtrace:
       - "C:/tools/mingw64/share/cmake-4.3/Modules/Internal/CMakeNVCCParseImplicitInfo.cmake:149 (message)"
       - "C:/tools/mingw64/share/cmake-4.3/Modules/CMakeDetermineCUDACompiler.cmake:295 (cmake_nvcc_parse_implicit_info)"
-      - "CMakeLists.txt:12 (enable_language)"
+      - "CMakeLists.txt:6 (enable_language)"
     message: |
       Parsed CUDA nvcc implicit link information:
         found 'PATH=' string: [C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.3/bin/../nvvm/bin;C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.3/bin;C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.3/bin/../lib;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\VCPackages;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\bin\\Roslyn;C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools\\x64\\;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\FSharp\\Tools;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\DiagnosticsHub\\Collector;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\\\MSBuild\\Current\\Bin\\amd64;C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\Tools\\;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.3\\bin\\x64;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.3\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Microsoft MPI\\Bin\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\160\\DTS\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\dotnet\\;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\MongoDB\\Server\\8.0\\bin;C:\\Program Files\\Amazon\\AWSCLIV2\\;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\tools\\mingw64\\bin;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2026.2.1\\;C:\\Users\\fing.labcom\\AppData\\Local\\agy\\bin;C:\\Users\\fing.labcom\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\fing.labcom\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\fing.labcom\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\fing.labcom\\.dotnet\\tools;C:\\Users\\fing.labcom\\AppData\\Local\\Programs\\Antigravity\\bin;C:\\Users\\fing.labcom\\AppData\\Roaming\\npm;C:\\Users\\fing.labcom\\AppData\\Local\\Programs\\IntelliJ IDEA 2026.1.1\\bin;C:\\Users\\fing.labcom\\AppData\\Local\\Programs\\Antigravity IDE\\bin;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\vcpkg]
@@ -11526,7 +11526,7 @@ events:
     backtrace:
       - "C:/tools/mingw64/share/cmake-4.3/Modules/Internal/CMakeNVCCParseImplicitInfo.cmake:178 (message)"
       - "C:/tools/mingw64/share/cmake-4.3/Modules/CMakeDetermineCUDACompiler.cmake:295 (cmake_nvcc_parse_implicit_info)"
-      - "CMakeLists.txt:12 (enable_language)"
+      - "CMakeLists.txt:6 (enable_language)"
     message: |
       Parsed CUDA nvcc include information:
         found 'PATH=' string: [C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.3/bin/../nvvm/bin;C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.3/bin;C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.3/bin/../lib;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\VCPackages;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\bin\\Roslyn;C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools\\x64\\;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\FSharp\\Tools;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\DiagnosticsHub\\Collector;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\\\MSBuild\\Current\\Bin\\amd64;C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\Tools\\;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.3\\bin\\x64;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.3\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Microsoft MPI\\Bin\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\160\\DTS\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\dotnet\\;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\MongoDB\\Server\\8.0\\bin;C:\\Program Files\\Amazon\\AWSCLIV2\\;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\tools\\mingw64\\bin;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2026.2.1\\;C:\\Users\\fing.labcom\\AppData\\Local\\agy\\bin;C:\\Users\\fing.labcom\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\fing.labcom\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\fing.labcom\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\fing.labcom\\.dotnet\\tools;C:\\Users\\fing.labcom\\AppData\\Local\\Programs\\Antigravity\\bin;C:\\Users\\fing.labcom\\AppData\\Roaming\\npm;C:\\Users\\fing.labcom\\AppData\\Local\\Programs\\IntelliJ IDEA 2026.1.1\\bin;C:\\Users\\fing.labcom\\AppData\\Local\\Programs\\Antigravity IDE\\bin;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\vcpkg]
@@ -11588,14 +11588,13 @@ events:
     backtrace:
       - "C:/tools/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
       - "C:/tools/mingw64/share/cmake-4.3/Modules/CMakeTestCUDACompiler.cmake:19 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:12 (enable_language)"
+      - "CMakeLists.txt:6 (enable_language)"
     checks:
       - "Detecting CUDA compiler ABI info"
     directories:
-      source: "C:/Users/fing.labcom/Music/Paralela/08.Fractal_Cuda/build/CMakeFiles/CMakeScratch/TryCompile-8qesqh"
-      binary: "C:/Users/fing.labcom/Music/Paralela/08.Fractal_Cuda/build/CMakeFiles/CMakeScratch/TryCompile-8qesqh"
+      source: "C:/Users/fing.labcom/Music/Paralela/08.Fractal_Cuda/build/CMakeFiles/CMakeScratch/TryCompile-aw29sf"
+      binary: "C:/Users/fing.labcom/Music/Paralela/08.Fractal_Cuda/build/CMakeFiles/CMakeScratch/TryCompile-aw29sf"
     cmakeVariables:
-      CMAKE_CUDA_ARCHITECTURES: "75"
       CMAKE_CUDA_FLAGS: "-D_WINDOWS -Xcompiler=\" /GR /EHsc\""
       CMAKE_CUDA_FLAGS_DEBUG: "-Xcompiler=\" -Zi -Ob0 -Od /RTC1\""
       CMAKE_CUDA_RUNTIME_LIBRARY: "Static"
@@ -11609,19 +11608,19 @@ events:
       variable: "CMAKE_CUDA_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/fing.labcom/Music/Paralela/08.Fractal_Cuda/build/CMakeFiles/CMakeScratch/TryCompile-8qesqh'
+        Change Dir: 'C:/Users/fing.labcom/Music/Paralela/08.Fractal_Cuda/build/CMakeFiles/CMakeScratch/TryCompile-aw29sf'
         
-        Run Build Command(s): C:/tools/mingw64/bin/ninja.exe -v cmTC_0a310
-        [1/2] C:\\PROGRA~1\\NVIDIA~2\\CUDA\\v13.3\\bin\\nvcc.exe -forward-unknown-to-host-compiler -D_MBCS -DCMAKE_INTDIR=\\"Debug\\"  -D_WINDOWS -Xcompiler=" /GR /EHsc"  -Xcompiler=" -Zi -Ob0 -Od /RTC1" "--generate-code=arch=compute_75,code=[compute_75,sm_75]" -Xcompiler=-MDd   -Xcompiler=-v -MD -MT CMakeFiles\\cmTC_0a310.dir\\Debug\\CMakeCUDACompilerABI.cu.obj -MF CMakeFiles\\cmTC_0a310.dir\\Debug\\CMakeCUDACompilerABI.cu.obj.d -x cu -c C:\\tools\\mingw64\\share\\cmake-4.3\\Modules\\CMakeCUDACompilerABI.cu -o CMakeFiles\\cmTC_0a310.dir\\Debug\\CMakeCUDACompilerABI.cu.obj -Xcompiler=-FdCMakeFiles\\cmTC_0a310.dir\\Debug\\,-FS
+        Run Build Command(s): C:/tools/mingw64/bin/ninja.exe -v cmTC_14060
+        [1/2] C:\\PROGRA~1\\NVIDIA~2\\CUDA\\v13.3\\bin\\nvcc.exe -forward-unknown-to-host-compiler -D_MBCS -DCMAKE_INTDIR=\\"Debug\\"  -D_WINDOWS -Xcompiler=" /GR /EHsc"  -Xcompiler=" -Zi -Ob0 -Od /RTC1" -Xcompiler=-MDd   -Xcompiler=-v -MD -MT CMakeFiles\\cmTC_14060.dir\\Debug\\CMakeCUDACompilerABI.cu.obj -MF CMakeFiles\\cmTC_14060.dir\\Debug\\CMakeCUDACompilerABI.cu.obj.d -x cu -c C:\\tools\\mingw64\\share\\cmake-4.3\\Modules\\CMakeCUDACompilerABI.cu -o CMakeFiles\\cmTC_14060.dir\\Debug\\CMakeCUDACompilerABI.cu.obj -Xcompiler=-FdCMakeFiles\\cmTC_14060.dir\\Debug\\,-FS
         cl : Línea de comandos warning D9002 : se omite la opción desconocida '-v'
         CMakeCUDACompilerABI.cu
         cl : Línea de comandos warning D9002 : se omite la opción desconocida '-v'
         CMakeCUDACompilerABI.cu
         CMakeCUDACompilerABI.cu
         cl : Línea de comandos warning D9002 : se omite la opción desconocida '-v'
-        tmpxft_00003ed8_00000000-7_CMakeCUDACompilerABI.cudafe1.cpp
+        tmpxft_00000d04_00000000-7_CMakeCUDACompilerABI.cudafe1.cpp
         C:\\tools\\mingw64\\share\\cmake-4.3\\Modules\\CMakeCompilerCUDAArch.h(10): warning C4305: 'return': truncamiento de 'int' a 'bool'
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\tools\\mingw64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_0a310.dir\\Debug --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_0a310.dir\\Debug\\CMakeCUDACompilerABI.cu.obj  /out:Debug\\cmTC_0a310.exe /implib:Debug\\cmTC_0a310.lib /pdb:Debug\\cmTC_0a310.pdb /version:0.0 /machine:x64 -v /debug /INCREMENTAL  cudadevrt.lib  cudart_static.lib -LIBPATH:"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.3/lib/x64" && cd ."
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\tools\\mingw64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_14060.dir\\Debug --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_14060.dir\\Debug\\CMakeCUDACompilerABI.cu.obj  /out:Debug\\cmTC_14060.exe /implib:Debug\\cmTC_14060.lib /pdb:Debug\\cmTC_14060.pdb /version:0.0 /machine:x64 -v /debug /INCREMENTAL  cudadevrt.lib  cudart_static.lib -LIBPATH:"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.3/lib/x64" && cd ."
         
       exitCode: 0
   -
@@ -11629,7 +11628,7 @@ events:
     backtrace:
       - "C:/tools/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
       - "C:/tools/mingw64/share/cmake-4.3/Modules/CMakeTestCUDACompiler.cmake:19 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:12 (enable_language)"
+      - "CMakeLists.txt:6 (enable_language)"
     message: |
       Parsed CUDA implicit include dir info: rv=start
         warn: unable to parse implicit include dirs!
@@ -11640,24 +11639,24 @@ events:
     backtrace:
       - "C:/tools/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
       - "C:/tools/mingw64/share/cmake-4.3/Modules/CMakeTestCUDACompiler.cmake:19 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:12 (enable_language)"
+      - "CMakeLists.txt:6 (enable_language)"
     message: |
       Parsed CUDA implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
-        ignore line: [Change Dir: 'C:/Users/fing.labcom/Music/Paralela/08.Fractal_Cuda/build/CMakeFiles/CMakeScratch/TryCompile-8qesqh']
+        ignore line: [Change Dir: 'C:/Users/fing.labcom/Music/Paralela/08.Fractal_Cuda/build/CMakeFiles/CMakeScratch/TryCompile-aw29sf']
         ignore line: []
-        ignore line: [Run Build Command(s): C:/tools/mingw64/bin/ninja.exe -v cmTC_0a310]
-        ignore line: [[1/2] C:\\PROGRA~1\\NVIDIA~2\\CUDA\\v13.3\\bin\\nvcc.exe -forward-unknown-to-host-compiler -D_MBCS -DCMAKE_INTDIR=\\"Debug\\"  -D_WINDOWS -Xcompiler=" /GR /EHsc"  -Xcompiler=" -Zi -Ob0 -Od /RTC1" "--generate-code=arch=compute_75 code=[compute_75 sm_75]" -Xcompiler=-MDd   -Xcompiler=-v -MD -MT CMakeFiles\\cmTC_0a310.dir\\Debug\\CMakeCUDACompilerABI.cu.obj -MF CMakeFiles\\cmTC_0a310.dir\\Debug\\CMakeCUDACompilerABI.cu.obj.d -x cu -c C:\\tools\\mingw64\\share\\cmake-4.3\\Modules\\CMakeCUDACompilerABI.cu -o CMakeFiles\\cmTC_0a310.dir\\Debug\\CMakeCUDACompilerABI.cu.obj -Xcompiler=-FdCMakeFiles\\cmTC_0a310.dir\\Debug\\ -FS]
+        ignore line: [Run Build Command(s): C:/tools/mingw64/bin/ninja.exe -v cmTC_14060]
+        ignore line: [[1/2] C:\\PROGRA~1\\NVIDIA~2\\CUDA\\v13.3\\bin\\nvcc.exe -forward-unknown-to-host-compiler -D_MBCS -DCMAKE_INTDIR=\\"Debug\\"  -D_WINDOWS -Xcompiler=" /GR /EHsc"  -Xcompiler=" -Zi -Ob0 -Od /RTC1" -Xcompiler=-MDd   -Xcompiler=-v -MD -MT CMakeFiles\\cmTC_14060.dir\\Debug\\CMakeCUDACompilerABI.cu.obj -MF CMakeFiles\\cmTC_14060.dir\\Debug\\CMakeCUDACompilerABI.cu.obj.d -x cu -c C:\\tools\\mingw64\\share\\cmake-4.3\\Modules\\CMakeCUDACompilerABI.cu -o CMakeFiles\\cmTC_14060.dir\\Debug\\CMakeCUDACompilerABI.cu.obj -Xcompiler=-FdCMakeFiles\\cmTC_14060.dir\\Debug\\ -FS]
         ignore line: [cl : Línea de comandos warning D9002 : se omite la opción desconocida '-v']
         ignore line: [CMakeCUDACompilerABI.cu]
         ignore line: [cl : Línea de comandos warning D9002 : se omite la opción desconocida '-v']
         ignore line: [CMakeCUDACompilerABI.cu]
         ignore line: [CMakeCUDACompilerABI.cu]
         ignore line: [cl : Línea de comandos warning D9002 : se omite la opción desconocida '-v']
-        ignore line: [tmpxft_00003ed8_00000000-7_CMakeCUDACompilerABI.cudafe1.cpp]
+        ignore line: [tmpxft_00000d04_00000000-7_CMakeCUDACompilerABI.cudafe1.cpp]
         ignore line: [C:\\tools\\mingw64\\share\\cmake-4.3\\Modules\\CMakeCompilerCUDAArch.h(10): warning C4305: 'return': truncamiento de 'int' a 'bool']
-        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\tools\\mingw64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_0a310.dir\\Debug --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_0a310.dir\\Debug\\CMakeCUDACompilerABI.cu.obj  /out:Debug\\cmTC_0a310.exe /implib:Debug\\cmTC_0a310.lib /pdb:Debug\\cmTC_0a310.pdb /version:0.0 /machine:x64 -v /debug /INCREMENTAL  cudadevrt.lib  cudart_static.lib -LIBPATH:"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.3/lib/x64" && cd ."]
+        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\tools\\mingw64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_14060.dir\\Debug --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_14060.dir\\Debug\\CMakeCUDACompilerABI.cu.obj  /out:Debug\\cmTC_14060.exe /implib:Debug\\cmTC_14060.lib /pdb:Debug\\cmTC_14060.pdb /version:0.0 /machine:x64 -v /debug /INCREMENTAL  cudadevrt.lib  cudart_static.lib -LIBPATH:"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.3/lib/x64" && cd ."]
         ignore line: []
         ignore line: []
         linker tool for 'CUDA': C:/PROGRA~1/MIB055~1/2022/COMMUN~1/VC/Tools/MSVC/1444~1.352/bin/Hostx64/x64/link.exe
@@ -11673,7 +11672,7 @@ events:
       - "C:/tools/mingw64/share/cmake-4.3/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
       - "C:/tools/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
       - "C:/tools/mingw64/share/cmake-4.3/Modules/CMakeTestCUDACompiler.cmake:19 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:12 (enable_language)"
+      - "CMakeLists.txt:6 (enable_language)"
     message: |
       Running the CUDA compiler's linker: "C:/PROGRA~1/MIB055~1/2022/COMMUN~1/VC/Tools/MSVC/1444~1.352/bin/Hostx64/x64/link.exe" "-v"
       Microsoft (R) Incremental Linker Version 14.44.35214.0
@@ -11682,7 +11681,7 @@ events:
     kind: "find_package-v1"
     backtrace:
       - "C:/tools/vcpkg-2026.03.18/scripts/buildsystems/vcpkg.cmake:908 (_find_package)"
-      - "CMakeLists.txt:14 (find_package)"
+      - "CMakeLists.txt:8 (find_package)"
     name: "fmt"
     configs:
       -
@@ -11832,19 +11831,19 @@ events:
         - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
         - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
         - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\vcpkg"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Cuda01"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/FractalCuda"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/tools/mingw64"
-        - "C:/Program Files (x86)/Cuda01"
+        - "C:/Program Files (x86)/FractalCuda"
       CMAKE_FIND_ROOT_PATH: "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug;C:/tools/vcpkg-2026.03.18/installed/x64-windows"
   -
     kind: "find-v1"
     backtrace:
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/share/sfml/SFMLConfig.cmake:98 (find_path)"
       - "C:/tools/vcpkg-2026.03.18/scripts/buildsystems/vcpkg.cmake:908 (_find_package)"
-      - "CMakeLists.txt:17 (find_package)"
+      - "CMakeLists.txt:9 (find_package)"
     mode: "path"
     variable: "SFML_DOC_DIR"
     description: "Path to a file."
@@ -12078,12 +12077,12 @@ events:
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/tools/mingw64/SFML/doc/"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/tools/mingw64/share/doc/SFML/"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/tools/mingw64/"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/Cuda01/include/SFML/doc/"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/Cuda01/include/share/doc/SFML/"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/Cuda01/include/"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/Cuda01/SFML/doc/"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/Cuda01/share/doc/SFML/"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/Cuda01/"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/FractalCuda/include/SFML/doc/"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/FractalCuda/include/share/doc/SFML/"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/FractalCuda/include/"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/FractalCuda/SFML/doc/"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/FractalCuda/share/doc/SFML/"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/FractalCuda/"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/tools/vcpkg-2026.03.18/installed/SFML/doc/"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/tools/vcpkg-2026.03.18/installed/share/doc/SFML/"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/tools/vcpkg-2026.03.18/installed/"
@@ -12330,12 +12329,12 @@ events:
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/tools/mingw64/SFML/doc/"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/tools/mingw64/share/doc/SFML/"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/tools/mingw64/"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/Cuda01/include/SFML/doc/"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/Cuda01/include/share/doc/SFML/"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/Cuda01/include/"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/Cuda01/SFML/doc/"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/Cuda01/share/doc/SFML/"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/Cuda01/"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/FractalCuda/include/SFML/doc/"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/FractalCuda/include/share/doc/SFML/"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/FractalCuda/include/"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/FractalCuda/SFML/doc/"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/FractalCuda/share/doc/SFML/"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/FractalCuda/"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/tools/vcpkg-2026.03.18/installed/SFML/doc/"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/tools/vcpkg-2026.03.18/installed/share/doc/SFML/"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/tools/vcpkg-2026.03.18/installed/"
@@ -12582,12 +12581,12 @@ events:
       - "C:/tools/mingw64/SFML/doc/"
       - "C:/tools/mingw64/share/doc/SFML/"
       - "C:/tools/mingw64/"
-      - "C:/Program Files (x86)/Cuda01/include/SFML/doc/"
-      - "C:/Program Files (x86)/Cuda01/include/share/doc/SFML/"
-      - "C:/Program Files (x86)/Cuda01/include/"
-      - "C:/Program Files (x86)/Cuda01/SFML/doc/"
-      - "C:/Program Files (x86)/Cuda01/share/doc/SFML/"
-      - "C:/Program Files (x86)/Cuda01/"
+      - "C:/Program Files (x86)/FractalCuda/include/SFML/doc/"
+      - "C:/Program Files (x86)/FractalCuda/include/share/doc/SFML/"
+      - "C:/Program Files (x86)/FractalCuda/include/"
+      - "C:/Program Files (x86)/FractalCuda/SFML/doc/"
+      - "C:/Program Files (x86)/FractalCuda/share/doc/SFML/"
+      - "C:/Program Files (x86)/FractalCuda/"
       - "C:/tools/vcpkg-2026.03.18/installed/SFML/doc/"
       - "C:/tools/vcpkg-2026.03.18/installed/share/doc/SFML/"
       - "C:/tools/vcpkg-2026.03.18/installed/"
@@ -12835,12 +12834,12 @@ events:
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/tools/mingw64/SFML/doc/SFML.tag"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/tools/mingw64/share/doc/SFML/SFML.tag"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/tools/mingw64/SFML.tag"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/Cuda01/include/SFML/doc/SFML.tag"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/Cuda01/include/share/doc/SFML/SFML.tag"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/Cuda01/include/SFML.tag"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/Cuda01/SFML/doc/SFML.tag"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/Cuda01/share/doc/SFML/SFML.tag"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/Cuda01/SFML.tag"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/FractalCuda/include/SFML/doc/SFML.tag"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/FractalCuda/include/share/doc/SFML/SFML.tag"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/FractalCuda/include/SFML.tag"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/FractalCuda/SFML/doc/SFML.tag"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/FractalCuda/share/doc/SFML/SFML.tag"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/FractalCuda/SFML.tag"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/tools/vcpkg-2026.03.18/installed/SFML/doc/SFML.tag"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/tools/vcpkg-2026.03.18/installed/share/doc/SFML/SFML.tag"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/tools/vcpkg-2026.03.18/installed/SFML.tag"
@@ -13087,12 +13086,12 @@ events:
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/tools/mingw64/SFML/doc/SFML.tag"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/tools/mingw64/share/doc/SFML/SFML.tag"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/tools/mingw64/SFML.tag"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/Cuda01/include/SFML/doc/SFML.tag"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/Cuda01/include/share/doc/SFML/SFML.tag"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/Cuda01/include/SFML.tag"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/Cuda01/SFML/doc/SFML.tag"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/Cuda01/share/doc/SFML/SFML.tag"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/Cuda01/SFML.tag"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/FractalCuda/include/SFML/doc/SFML.tag"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/FractalCuda/include/share/doc/SFML/SFML.tag"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/FractalCuda/include/SFML.tag"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/FractalCuda/SFML/doc/SFML.tag"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/FractalCuda/share/doc/SFML/SFML.tag"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/FractalCuda/SFML.tag"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/tools/vcpkg-2026.03.18/installed/SFML/doc/SFML.tag"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/tools/vcpkg-2026.03.18/installed/share/doc/SFML/SFML.tag"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/tools/vcpkg-2026.03.18/installed/SFML.tag"
@@ -13339,12 +13338,12 @@ events:
       - "C:/tools/mingw64/SFML/doc/SFML.tag"
       - "C:/tools/mingw64/share/doc/SFML/SFML.tag"
       - "C:/tools/mingw64/SFML.tag"
-      - "C:/Program Files (x86)/Cuda01/include/SFML/doc/SFML.tag"
-      - "C:/Program Files (x86)/Cuda01/include/share/doc/SFML/SFML.tag"
-      - "C:/Program Files (x86)/Cuda01/include/SFML.tag"
-      - "C:/Program Files (x86)/Cuda01/SFML/doc/SFML.tag"
-      - "C:/Program Files (x86)/Cuda01/share/doc/SFML/SFML.tag"
-      - "C:/Program Files (x86)/Cuda01/SFML.tag"
+      - "C:/Program Files (x86)/FractalCuda/include/SFML/doc/SFML.tag"
+      - "C:/Program Files (x86)/FractalCuda/include/share/doc/SFML/SFML.tag"
+      - "C:/Program Files (x86)/FractalCuda/include/SFML.tag"
+      - "C:/Program Files (x86)/FractalCuda/SFML/doc/SFML.tag"
+      - "C:/Program Files (x86)/FractalCuda/share/doc/SFML/SFML.tag"
+      - "C:/Program Files (x86)/FractalCuda/SFML.tag"
       - "C:/tools/vcpkg-2026.03.18/installed/SFML/doc/SFML.tag"
       - "C:/tools/vcpkg-2026.03.18/installed/share/doc/SFML/SFML.tag"
       - "C:/tools/vcpkg-2026.03.18/installed/SFML.tag"
@@ -13432,12 +13431,12 @@ events:
         - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
         - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
         - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\vcpkg"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Cuda01"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/FractalCuda"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/tools/mingw64"
-        - "C:/Program Files (x86)/Cuda01"
+        - "C:/Program Files (x86)/FractalCuda"
       CMAKE_FIND_ROOT_PATH: "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug;C:/tools/vcpkg-2026.03.18/installed/x64-windows"
       ENV{INCLUDE}:
         - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include"
@@ -13453,9 +13452,17 @@ events:
     kind: "find_package-v1"
     backtrace:
       - "C:/tools/vcpkg-2026.03.18/scripts/buildsystems/vcpkg.cmake:908 (_find_package)"
-      - "CMakeLists.txt:17 (find_package)"
+      - "CMakeLists.txt:9 (find_package)"
     name: "SFML"
     components:
+      -
+        name: "Network"
+        required: true
+        found: false
+      -
+        name: "System"
+        required: true
+        found: false
       -
         name: "Graphics"
         required: true
@@ -13465,7 +13472,7 @@ events:
         required: true
         found: false
       -
-        name: "System"
+        name: "Audio"
         required: true
         found: false
     configs:
@@ -13639,19 +13646,19 @@ events:
         - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
         - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
         - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\vcpkg"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Cuda01"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/FractalCuda"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/tools/mingw64"
-        - "C:/Program Files (x86)/Cuda01"
+        - "C:/Program Files (x86)/FractalCuda"
       CMAKE_FIND_ROOT_PATH: "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug;C:/tools/vcpkg-2026.03.18/installed/x64-windows"
   -
     kind: "find-v1"
     backtrace:
       - "C:/tools/vcpkg-2026.03.18/scripts/buildsystems/vcpkg.cmake:188 (find_program)"
       - "C:/tools/vcpkg-2026.03.18/scripts/buildsystems/vcpkg.cmake:621 (z_vcpkg_set_powershell_path)"
-      - "CMakeLists.txt:19 (add_executable)"
+      - "CMakeLists.txt:17 (add_executable)"
     mode: "program"
     variable: "Z_VCPKG_PWSH_PATH"
     description: "Path to a program."
@@ -13738,9 +13745,9 @@ events:
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/tools/mingw64/bin/"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/tools/mingw64/sbin/"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/tools/mingw64/"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/Cuda01/bin/"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/Cuda01/sbin/"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/Cuda01/"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/FractalCuda/bin/"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/FractalCuda/sbin/"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/FractalCuda/"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/bin/"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/sbin/"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/"
@@ -13813,9 +13820,9 @@ events:
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/tools/mingw64/bin/"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/tools/mingw64/sbin/"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/tools/mingw64/"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/Cuda01/bin/"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/Cuda01/sbin/"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/Cuda01/"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/FractalCuda/bin/"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/FractalCuda/sbin/"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/FractalCuda/"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/bin/"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/sbin/"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/"
@@ -13888,9 +13895,9 @@ events:
       - "C:/tools/mingw64/bin/"
       - "C:/tools/mingw64/sbin/"
       - "C:/tools/mingw64/"
-      - "C:/Program Files (x86)/Cuda01/bin/"
-      - "C:/Program Files (x86)/Cuda01/sbin/"
-      - "C:/Program Files (x86)/Cuda01/"
+      - "C:/Program Files (x86)/FractalCuda/bin/"
+      - "C:/Program Files (x86)/FractalCuda/sbin/"
+      - "C:/Program Files (x86)/FractalCuda/"
     searched_directories:
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/bin/pwsh.com"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/bin/pwsh.exe"
@@ -14108,15 +14115,15 @@ events:
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/tools/mingw64/pwsh.com"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/tools/mingw64/pwsh.exe"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/tools/mingw64/pwsh"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/Cuda01/bin/pwsh.com"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/Cuda01/bin/pwsh.exe"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/Cuda01/bin/pwsh"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/Cuda01/sbin/pwsh.com"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/Cuda01/sbin/pwsh.exe"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/Cuda01/sbin/pwsh"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/Cuda01/pwsh.com"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/Cuda01/pwsh.exe"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/Cuda01/pwsh"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/FractalCuda/bin/pwsh.com"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/FractalCuda/bin/pwsh.exe"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/FractalCuda/bin/pwsh"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/FractalCuda/sbin/pwsh.com"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/FractalCuda/sbin/pwsh.exe"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/FractalCuda/sbin/pwsh"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/FractalCuda/pwsh.com"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/FractalCuda/pwsh.exe"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/FractalCuda/pwsh"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/bin/pwsh.com"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/bin/pwsh.exe"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/bin/pwsh"
@@ -14333,15 +14340,15 @@ events:
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/tools/mingw64/pwsh.com"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/tools/mingw64/pwsh.exe"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/tools/mingw64/pwsh"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/Cuda01/bin/pwsh.com"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/Cuda01/bin/pwsh.exe"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/Cuda01/bin/pwsh"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/Cuda01/sbin/pwsh.com"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/Cuda01/sbin/pwsh.exe"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/Cuda01/sbin/pwsh"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/Cuda01/pwsh.com"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/Cuda01/pwsh.exe"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/Cuda01/pwsh"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/FractalCuda/bin/pwsh.com"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/FractalCuda/bin/pwsh.exe"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/FractalCuda/bin/pwsh"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/FractalCuda/sbin/pwsh.com"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/FractalCuda/sbin/pwsh.exe"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/FractalCuda/sbin/pwsh"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/FractalCuda/pwsh.com"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/FractalCuda/pwsh.exe"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/FractalCuda/pwsh"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/bin/pwsh.com"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/bin/pwsh.exe"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/bin/pwsh"
@@ -14558,15 +14565,15 @@ events:
       - "C:/tools/mingw64/pwsh.com"
       - "C:/tools/mingw64/pwsh.exe"
       - "C:/tools/mingw64/pwsh"
-      - "C:/Program Files (x86)/Cuda01/bin/pwsh.com"
-      - "C:/Program Files (x86)/Cuda01/bin/pwsh.exe"
-      - "C:/Program Files (x86)/Cuda01/bin/pwsh"
-      - "C:/Program Files (x86)/Cuda01/sbin/pwsh.com"
-      - "C:/Program Files (x86)/Cuda01/sbin/pwsh.exe"
-      - "C:/Program Files (x86)/Cuda01/sbin/pwsh"
-      - "C:/Program Files (x86)/Cuda01/pwsh.com"
-      - "C:/Program Files (x86)/Cuda01/pwsh.exe"
-      - "C:/Program Files (x86)/Cuda01/pwsh"
+      - "C:/Program Files (x86)/FractalCuda/bin/pwsh.com"
+      - "C:/Program Files (x86)/FractalCuda/bin/pwsh.exe"
+      - "C:/Program Files (x86)/FractalCuda/bin/pwsh"
+      - "C:/Program Files (x86)/FractalCuda/sbin/pwsh.com"
+      - "C:/Program Files (x86)/FractalCuda/sbin/pwsh.exe"
+      - "C:/Program Files (x86)/FractalCuda/sbin/pwsh"
+      - "C:/Program Files (x86)/FractalCuda/pwsh.com"
+      - "C:/Program Files (x86)/FractalCuda/pwsh.exe"
+      - "C:/Program Files (x86)/FractalCuda/pwsh"
     found: false
     search_context:
       CMAKE_PROGRAM_PATH:
@@ -14631,19 +14638,19 @@ events:
         - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
         - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
         - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\vcpkg"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Cuda01"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/FractalCuda"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/tools/mingw64"
-        - "C:/Program Files (x86)/Cuda01"
+        - "C:/Program Files (x86)/FractalCuda"
       CMAKE_FIND_ROOT_PATH: "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug;C:/tools/vcpkg-2026.03.18/installed/x64-windows"
   -
     kind: "find-v1"
     backtrace:
       - "C:/tools/vcpkg-2026.03.18/scripts/buildsystems/vcpkg.cmake:193 (find_program)"
       - "C:/tools/vcpkg-2026.03.18/scripts/buildsystems/vcpkg.cmake:621 (z_vcpkg_set_powershell_path)"
-      - "CMakeLists.txt:19 (add_executable)"
+      - "CMakeLists.txt:17 (add_executable)"
     mode: "program"
     variable: "Z_VCPKG_BUILTIN_POWERSHELL_PATH"
     description: "Path to a program."
@@ -14730,9 +14737,9 @@ events:
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/tools/mingw64/bin/"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/tools/mingw64/sbin/"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/tools/mingw64/"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/Cuda01/bin/"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/Cuda01/sbin/"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/Cuda01/"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/FractalCuda/bin/"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/FractalCuda/sbin/"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/FractalCuda/"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/bin/"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/sbin/"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/"
@@ -14805,9 +14812,9 @@ events:
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/tools/mingw64/bin/"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/tools/mingw64/sbin/"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/tools/mingw64/"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/Cuda01/bin/"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/Cuda01/sbin/"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/Cuda01/"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/FractalCuda/bin/"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/FractalCuda/sbin/"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/FractalCuda/"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/bin/"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/sbin/"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/"
@@ -14880,9 +14887,9 @@ events:
       - "C:/tools/mingw64/bin/"
       - "C:/tools/mingw64/sbin/"
       - "C:/tools/mingw64/"
-      - "C:/Program Files (x86)/Cuda01/bin/"
-      - "C:/Program Files (x86)/Cuda01/sbin/"
-      - "C:/Program Files (x86)/Cuda01/"
+      - "C:/Program Files (x86)/FractalCuda/bin/"
+      - "C:/Program Files (x86)/FractalCuda/sbin/"
+      - "C:/Program Files (x86)/FractalCuda/"
     searched_directories:
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/bin/powershell.com"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/bin/powershell.exe"
@@ -15100,15 +15107,15 @@ events:
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/tools/mingw64/powershell.com"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/tools/mingw64/powershell.exe"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/tools/mingw64/powershell"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/Cuda01/bin/powershell.com"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/Cuda01/bin/powershell.exe"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/Cuda01/bin/powershell"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/Cuda01/sbin/powershell.com"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/Cuda01/sbin/powershell.exe"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/Cuda01/sbin/powershell"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/Cuda01/powershell.com"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/Cuda01/powershell.exe"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/Cuda01/powershell"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/FractalCuda/bin/powershell.com"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/FractalCuda/bin/powershell.exe"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/FractalCuda/bin/powershell"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/FractalCuda/sbin/powershell.com"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/FractalCuda/sbin/powershell.exe"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/FractalCuda/sbin/powershell"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/FractalCuda/powershell.com"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/FractalCuda/powershell.exe"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/Program Files (x86)/FractalCuda/powershell"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/bin/powershell.com"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/bin/powershell.exe"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/bin/powershell"
@@ -15325,15 +15332,15 @@ events:
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/tools/mingw64/powershell.com"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/tools/mingw64/powershell.exe"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/tools/mingw64/powershell"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/Cuda01/bin/powershell.com"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/Cuda01/bin/powershell.exe"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/Cuda01/bin/powershell"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/Cuda01/sbin/powershell.com"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/Cuda01/sbin/powershell.exe"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/Cuda01/sbin/powershell"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/Cuda01/powershell.com"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/Cuda01/powershell.exe"
-      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/Cuda01/powershell"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/FractalCuda/bin/powershell.com"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/FractalCuda/bin/powershell.exe"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/FractalCuda/bin/powershell"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/FractalCuda/sbin/powershell.com"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/FractalCuda/sbin/powershell.exe"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/FractalCuda/sbin/powershell"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/FractalCuda/powershell.com"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/FractalCuda/powershell.exe"
+      - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/Program Files (x86)/FractalCuda/powershell"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/bin/powershell.com"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/bin/powershell.exe"
       - "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug/bin/powershell"
@@ -15492,11 +15499,11 @@ events:
         - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
         - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
         - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\vcpkg"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Cuda01"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/FractalCuda"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/tools/mingw64"
-        - "C:/Program Files (x86)/Cuda01"
+        - "C:/Program Files (x86)/FractalCuda"
       CMAKE_FIND_ROOT_PATH: "C:/tools/vcpkg-2026.03.18/installed/x64-windows/debug;C:/tools/vcpkg-2026.03.18/installed/x64-windows"
 ...

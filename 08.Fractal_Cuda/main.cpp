@@ -1,103 +1,83 @@
-#include <SFML/Graphics.hpp>
+#ifdef _WIN32
+#include <windows.h>
+#endif
+
 #include <iostream>
 #include <fmt/core.h>
+#include <SFML/Graphics.hpp>
 #include <cuda_runtime.h>
-#include <cstring>
+#include "palette.h"
 
-#define CHECK(expr)                                                                                                         \
-  {                                                                                                                         \
-    auto internal_error = (expr);                                                                                           \
-    if (internal_error != cudaSuccess)                                                                                      \
-    {                                                                                                                       \
-      fmt::println("{}: {} in {} at line {}", (int)internal_error, cudaGetErrorString(internal_error), __FILE__, __LINE__); \
-      exit(EXIT_FAILURE);                                                                                                   \
-    }                                                                                                                       \
-  }
+#include <complex>
 
-// Parámetros del Fractal (Recuperados para que compile la función)
+// Pamarametro img
+#define ANCHO 1600
+#define ALTO 900
+
+// Parameteros
+int max_iteraciones = 10;
 double x_min = -1.5;
 double x_max = 1.5;
 double y_min = -1.0;
 double y_max = 1.0;
-int max_iteraciones = 100;
 
-// dimensión de la imagen
-#define WIDTH 1600
-#define HEIGHT 900
+// Complejo que almacena dobles
+std::complex<double> c(-0.71, 0.27015);
+uint32_t *host_pixel_buffer = nullptr;
+uint32_t *device_pixel_buffer = nullptr;
+extern void copiar_paleta(unsigned int *pallete_host);
 
-// tiene que coincidir con PALLETE_SIZE de kernel.cu
-#define PALLETE_SIZE 256
+extern void julia_gpu(double centro_real, double centro_imag, int num_iteraciones, double x_min, double y_min, double x_max, double y_max, uint32_t width, uint32_t height, uint32_t *pixel_buffer);
 
-uint32_t* host_pixel_buffer = nullptr;
-uint32_t* device_pixel_buffer = nullptr;
-
-// Declaración (Prototipo) de tus funciones externas de CUDA
-void julia_gpu(double centro_real, double centro_imag, int max_iter,
-    double x_min, double y_min, double x_max, double y_max,
-    uint32_t width, uint32_t height, uint32_t *pixel_buffer);
-
-void copiar_paleta(unsigned int* h_palette);
-
-double centro_real = -0.7;
-double centro_imag = 0.27015;
-
-void generar_paleta(unsigned int* h_palette)
-{
-    for (int i = 0; i < PALLETE_SIZE; i++)
-    {
-        double t = (double)i / (double)(PALLETE_SIZE - 1);
-
-        uint8_t r = (uint8_t)(9.0 * (1 - t) * t * t * t * 255);
-        uint8_t g = (uint8_t)(15.0 * (1 - t) * (1 - t) * t * t * 255);
-        uint8_t b = (uint8_t)(8.5 * (1 - t) * (1 - t) * (1 - t) * t * 255);
-
-        h_palette[i] = (0xFF << 24) | (b << 16) | (g << 8) | r;
+#define CHECK(expr)                                                                                                               \
+    {                                                                                                                             \
+        auto internal_error = (expr);                                                                                             \
+        if (internal_error != cudaSuccess)                                                                                        \
+        {                                                                                                                         \
+            fmt::println("{}: {} in {} at line {}", (int)internal_error, cudaGetErrorString(internal_error), __FILE__, __LINE__); \
+            exit(EXIT_FAILURE);                                                                                                   \
+        }                                                                                                                         \
     }
-}
 
-int main() {    
+int main()
+{
     int deviceId = 0;
     cudaSetDevice(deviceId);
-    cudaDeviceProp deviceProp;    
+    cudaDeviceProp deviceProp;
     cudaGetDeviceProperties(&deviceProp, deviceId);
-    fmt::println("Device: {}", deviceProp.name);    
-    fmt::println("Total memory: {} MB", deviceProp.totalGlobalMem / 1024 / 1024);
+    fmt::print("Device Name: {}\n", deviceProp.name);
+    fmt::println("Total memory: {} MB", deviceProp.totalGlobalMem / (1024 * 1024));
     
-    // INICIALIZAR
-    size_t buffer_size = WIDTH * HEIGHT * sizeof(uint32_t);
-    host_pixel_buffer = (uint32_t*)malloc(buffer_size);
+    
+    size_t buffer_size = ANCHO * ALTO * sizeof(uint32_t);
+    host_pixel_buffer = (uint32_t *)malloc(buffer_size);
+
     std::memset(host_pixel_buffer, 0, buffer_size);
+    CHECK(cudaMalloc(&device_pixel_buffer, buffer_size));
+    copiar_paleta(color_ramp.data());
+    // graifica
 
-    CHECK(cudaMalloc(&device_pixel_buffer, buffer_size));   
+    sf::RenderWindow window(sf::VideoMode({ANCHO, ALTO}), "Julia");
 
-    // paleta de colores: se genera una vez y se copia a la GPU
-    unsigned int host_palette[PALLETE_SIZE];
-    generar_paleta(host_palette);
-    copiar_paleta(host_palette);
-
-    // inicializar UI (CORREGIDO PARA SFML 3)
-    sf::RenderWindow window(sf::VideoMode({WIDTH, HEIGHT}), "Fractal Julia Set");
-
-    // Inicialización directa (CORREGIDO PARA SFML 3: sin método .create())
-    sf::Texture texture(sf::Vector2u(WIDTH, HEIGHT));
+#ifdef _WIN32
+    HWND hwnd = window.getNativeHandle();
+    ShowWindow(hwnd, SW_MAXIMIZE); // Maximizar Ventana
+#endif
+    sf::Vector2u windowSize = {ANCHO, ALTO};
+    sf::Texture texture(windowSize);
     sf::Sprite sprite(texture);
 
-    sf::Font font;
-    if (!font.openFromFile("C:/Windows/Fonts/arial.ttf"))
-    {
-        fmt::println("No se pudo cargar la fuente arial.ttf");
-        return EXIT_FAILURE;
-    }
+    sf::Font font("arial.ttf");
     sf::Text text(font, "Julia Set", 24);
     text.setFillColor(sf::Color::White);
     text.setPosition({10, 10});
     text.setStyle(sf::Text::Bold);
 
-    std::string options = "Options: Up/Down change iterations";
+    std::string options = "Up/Sown change iterations";
     sf::Text textoptions(font, options, 20);
-    textoptions.setStyle(sf::Text::Bold);
-    textoptions.setPosition({10, (float)HEIGHT - 40});
 
+    textoptions.setStyle(sf::Text::Bold);
+    textoptions.setPosition({10, window.getView().getSize().y - 40});
     // FPS
     int frames = 0;
     int fps = 0;
@@ -105,6 +85,7 @@ int main() {
 
     while (window.isOpen())
     {
+        // Process events
         while (const std::optional event = window.pollEvent())
         {
             // Close window: exit
@@ -124,44 +105,52 @@ int main() {
                     if (max_iteraciones < 10)
                         max_iteraciones = 10;
                     break;
-                default:
-                    break;
                 }
             }
         }
-        
-        std::string mode = "GPU CUDA";
+            std::string mode = "";
+            //---------------------------
+            // Dibuja Fractal dependera de la velocidad
+            mode = "GPU CUDA";
+            // dibujar en la gpu
+            // invocar kernel
+            // copiar la imagen gpu-cpu
+            julia_gpu(
+                c.real(), c.imag(), 
+                max_iteraciones, 
+                x_min, y_min, x_max, y_max,
+                 ANCHO, ALTO, 
+                 device_pixel_buffer);
+            CHECK(cudaGetLastError());
+            CHECK(cudaMemcpy(host_pixel_buffer, device_pixel_buffer, buffer_size, cudaMemcpyDeviceToHost));
+            //----------------------
 
-        julia_gpu(centro_real, centro_imag, max_iteraciones,
-            x_min, y_min, x_max, y_max,
-            WIDTH, HEIGHT, device_pixel_buffer);
+            texture.update((const uint8_t *)host_pixel_buffer);
 
-        CHECK(cudaMemcpy(host_pixel_buffer, device_pixel_buffer, buffer_size, cudaMemcpyDeviceToHost));
-    
-        texture.update((const uint8_t *)host_pixel_buffer);
+            frames++;
 
-        frames++;
+            if (clock.getElapsedTime().asSeconds() >= 1.0f)
+            {
+                fps = frames;
+                frames = 0;
+                clock.restart();
+            }
+            auto msg = fmt::format("julia: iteraciones; {}.fps{}, Mode: {}", max_iteraciones, fps, mode);
+            text.setString(msg);
 
-        if (clock.getElapsedTime().asSeconds() >= 1.0f)
-        {
-            fps = frames;
-            frames = 0;
-            clock.restart();
+            // Clear screen
+            window.clear();
+            {
+                window.draw(sprite);
+                window.draw(text);
+                window.draw(textoptions);
+            }
+
+            // Update the window
+            window.display();
         }
-        auto msg = fmt::format("julia: iteraciones: {}. fps: {}, Mode: {}", max_iteraciones, fps, mode);
-        text.setString(msg);
-
-        window.clear();
-        
-        window.draw(sprite);
-        window.draw(text);
-        window.draw(textoptions);
-
-        window.display();
-    }
-
-    free(host_pixel_buffer);
+free(host_pixel_buffer);
     cudaFree(device_pixel_buffer);
-
-    return 0;
-}
+      return 0;
+    }
+      

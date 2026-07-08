@@ -6,7 +6,7 @@
 # It is included in the main 'build.ninja'.
 
 # =============================================================================
-# Project: Cuda01
+# Project: FractalCuda
 # Configurations: Debug, Release, RelWithDebInfo
 # =============================================================================
 # =============================================================================
@@ -20,7 +20,7 @@ msvc_deps_prefix = Nota: inclusi¢n del archivo:
 #############################################
 # Rule for compiling CUDA files.
 
-rule CUDA_COMPILER__cuda01_unscanned_Debug
+rule CUDA_COMPILER__FractalCuda_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
   command = ${LAUNCHER}${CODE_CHECK}C:\PROGRA~1\NVIDIA~2\CUDA\v13.3\bin\nvcc.exe -forward-unknown-to-host-compiler $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -x cu -c $in -o $out -Xcompiler=-Fd$TARGET_COMPILE_PDB,-FS
@@ -30,7 +30,7 @@ rule CUDA_COMPILER__cuda01_unscanned_Debug
 #############################################
 # Rule for compiling CXX files.
 
-rule CXX_COMPILER__cuda01_unscanned_Debug
+rule CXX_COMPILER__FractalCuda_unscanned_Debug
   deps = msvc
   command = ${LAUNCHER}${CODE_CHECK}C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1444~1.352\bin\Hostx64\x64\cl.exe  /nologo /TP $DEFINES $INCLUDES $FLAGS /showIncludes /Fo$out /Fd$TARGET_COMPILE_PDB /FS -c $in
   description = Building CXX object $out
@@ -39,7 +39,7 @@ rule CXX_COMPILER__cuda01_unscanned_Debug
 #############################################
 # Rule for linking CXX executable.
 
-rule CXX_EXECUTABLE_LINKER__cuda01_Debug
+rule CXX_EXECUTABLE_LINKER__FractalCuda_Debug
   command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\tools\mingw64\bin\cmake.exe -E vs_link_exe --msvc-ver=1944 --intdir=$OBJECT_DIR --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100261~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100261~1.0\x64\mt.exe --manifests $MANIFESTS -- C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1444~1.352\bin\Hostx64\x64\link.exe /nologo $in  /out:$TARGET_FILE /implib:$TARGET_IMPLIB /pdb:$TARGET_PDB /version:0.0 $LINK_FLAGS $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
@@ -48,7 +48,7 @@ rule CXX_EXECUTABLE_LINKER__cuda01_Debug
 #############################################
 # Rule for compiling CUDA files.
 
-rule CUDA_COMPILER__cuda01_unscanned_Release
+rule CUDA_COMPILER__FractalCuda_unscanned_Release
   depfile = $DEP_FILE
   deps = gcc
   command = ${LAUNCHER}${CODE_CHECK}C:\PROGRA~1\NVIDIA~2\CUDA\v13.3\bin\nvcc.exe -forward-unknown-to-host-compiler $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -x cu -c $in -o $out -Xcompiler=-Fd$TARGET_COMPILE_PDB,-FS
@@ -58,7 +58,7 @@ rule CUDA_COMPILER__cuda01_unscanned_Release
 #############################################
 # Rule for compiling CXX files.
 
-rule CXX_COMPILER__cuda01_unscanned_Release
+rule CXX_COMPILER__FractalCuda_unscanned_Release
   deps = msvc
   command = ${LAUNCHER}${CODE_CHECK}C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1444~1.352\bin\Hostx64\x64\cl.exe  /nologo /TP $DEFINES $INCLUDES $FLAGS /showIncludes /Fo$out /Fd$TARGET_COMPILE_PDB /FS -c $in
   description = Building CXX object $out
@@ -67,7 +67,7 @@ rule CXX_COMPILER__cuda01_unscanned_Release
 #############################################
 # Rule for linking CXX executable.
 
-rule CXX_EXECUTABLE_LINKER__cuda01_Release
+rule CXX_EXECUTABLE_LINKER__FractalCuda_Release
   command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\tools\mingw64\bin\cmake.exe -E vs_link_exe --msvc-ver=1944 --intdir=$OBJECT_DIR --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100261~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100261~1.0\x64\mt.exe --manifests $MANIFESTS -- C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1444~1.352\bin\Hostx64\x64\link.exe /nologo $in  /out:$TARGET_FILE /implib:$TARGET_IMPLIB /pdb:$TARGET_PDB /version:0.0 $LINK_FLAGS $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
@@ -76,7 +76,7 @@ rule CXX_EXECUTABLE_LINKER__cuda01_Release
 #############################################
 # Rule for compiling CUDA files.
 
-rule CUDA_COMPILER__cuda01_unscanned_RelWithDebInfo
+rule CUDA_COMPILER__FractalCuda_unscanned_RelWithDebInfo
   depfile = $DEP_FILE
   deps = gcc
   command = ${LAUNCHER}${CODE_CHECK}C:\PROGRA~1\NVIDIA~2\CUDA\v13.3\bin\nvcc.exe -forward-unknown-to-host-compiler $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -x cu -c $in -o $out -Xcompiler=-Fd$TARGET_COMPILE_PDB,-FS
@@ -86,7 +86,7 @@ rule CUDA_COMPILER__cuda01_unscanned_RelWithDebInfo
 #############################################
 # Rule for compiling CXX files.
 
-rule CXX_COMPILER__cuda01_unscanned_RelWithDebInfo
+rule CXX_COMPILER__FractalCuda_unscanned_RelWithDebInfo
   deps = msvc
   command = ${LAUNCHER}${CODE_CHECK}C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1444~1.352\bin\Hostx64\x64\cl.exe  /nologo /TP $DEFINES $INCLUDES $FLAGS /showIncludes /Fo$out /Fd$TARGET_COMPILE_PDB /FS -c $in
   description = Building CXX object $out
@@ -95,7 +95,7 @@ rule CXX_COMPILER__cuda01_unscanned_RelWithDebInfo
 #############################################
 # Rule for linking CXX executable.
 
-rule CXX_EXECUTABLE_LINKER__cuda01_RelWithDebInfo
+rule CXX_EXECUTABLE_LINKER__FractalCuda_RelWithDebInfo
   command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\tools\mingw64\bin\cmake.exe -E vs_link_exe --msvc-ver=1944 --intdir=$OBJECT_DIR --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100261~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100261~1.0\x64\mt.exe --manifests $MANIFESTS -- C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1444~1.352\bin\Hostx64\x64\link.exe /nologo $in  /out:$TARGET_FILE /implib:$TARGET_IMPLIB /pdb:$TARGET_PDB /version:0.0 $LINK_FLAGS $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT

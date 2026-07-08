@@ -6,9 +6,9 @@
 
 include CMakeFiles/impl-RelWithDebInfo.ninja
 
-build cuda01: phony RelWithDebInfo\cuda01.exe
+build FractalCuda: phony RelWithDebInfo\FractalCuda.exe
 
-build cuda01.exe: phony RelWithDebInfo\cuda01.exe
+build FractalCuda.exe: phony RelWithDebInfo\FractalCuda.exe
 
 
 #############################################
