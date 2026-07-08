@@ -51,8 +51,6 @@ build CMakeFiles/fractalmpi.dir/Release/main.cpp.obj: CXX_COMPILER__fractalmpi_u
   INCLUDES = -Ic:/oneAPI/mpi/latest/include -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include
   OBJECT_DIR = CMakeFiles\fractalmpi.dir\Release
   OBJECT_FILE_DIR = CMakeFiles\fractalmpi.dir\Release
-  TARGET_COMPILE_PDB = CMakeFiles\fractalmpi.dir\Release\
-  TARGET_PDB = Release\fractalmpi.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\fractalmpi.dir
 
 build CMakeFiles/fractalmpi.dir/Release/fractal_mpi.cpp.obj: CXX_COMPILER__fractalmpi_unscanned_Release C$:/Users/fing.labcom/Music/Paralela/06_FractalMPI/fractal_mpi.cpp || cmake_object_order_depends_target_fractalmpi_RELEASE
@@ -63,8 +61,6 @@ build CMakeFiles/fractalmpi.dir/Release/fractal_mpi.cpp.obj: CXX_COMPILER__fract
   INCLUDES = -Ic:/oneAPI/mpi/latest/include -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include
   OBJECT_DIR = CMakeFiles\fractalmpi.dir\Release
   OBJECT_FILE_DIR = CMakeFiles\fractalmpi.dir\Release
-  TARGET_COMPILE_PDB = CMakeFiles\fractalmpi.dir\Release\
-  TARGET_PDB = Release\fractalmpi.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\fractalmpi.dir
 
 build CMakeFiles/fractalmpi.dir/Release/palette.cpp.obj: CXX_COMPILER__fractalmpi_unscanned_Release C$:/Users/fing.labcom/Music/Paralela/06_FractalMPI/palette.cpp || cmake_object_order_depends_target_fractalmpi_RELEASE
@@ -75,8 +71,6 @@ build CMakeFiles/fractalmpi.dir/Release/palette.cpp.obj: CXX_COMPILER__fractalmp
   INCLUDES = -Ic:/oneAPI/mpi/latest/include -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include
   OBJECT_DIR = CMakeFiles\fractalmpi.dir\Release
   OBJECT_FILE_DIR = CMakeFiles\fractalmpi.dir\Release
-  TARGET_COMPILE_PDB = CMakeFiles\fractalmpi.dir\Release\
-  TARGET_PDB = Release\fractalmpi.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\fractalmpi.dir
 
 build CMakeFiles/fractalmpi.dir/Release/draw_text.cpp.obj: CXX_COMPILER__fractalmpi_unscanned_Release C$:/Users/fing.labcom/Music/Paralela/06_FractalMPI/draw_text.cpp || cmake_object_order_depends_target_fractalmpi_RELEASE
@@ -87,8 +81,6 @@ build CMakeFiles/fractalmpi.dir/Release/draw_text.cpp.obj: CXX_COMPILER__fractal
   INCLUDES = -Ic:/oneAPI/mpi/latest/include -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include
   OBJECT_DIR = CMakeFiles\fractalmpi.dir\Release
   OBJECT_FILE_DIR = CMakeFiles\fractalmpi.dir\Release
-  TARGET_COMPILE_PDB = CMakeFiles\fractalmpi.dir\Release\
-  TARGET_PDB = Release\fractalmpi.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\fractalmpi.dir
 
 
@@ -106,10 +98,9 @@ build Release/fractalmpi.exe: CXX_EXECUTABLE_LINKER__fractalmpi_Release CMakeFil
   OBJECT_DIR = CMakeFiles\fractalmpi.dir\Release
   POST_BUILD = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\fing.labcom\Music\Paralela\06_FractalMPI\build && C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file c:/tools/vcpkg-2026.03.18/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Users/fing.labcom/Music/Paralela/06_FractalMPI/build/Release/fractalmpi.exe -installedDir c:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/bin -OutVariable out"
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\fractalmpi.dir\Release\
   TARGET_FILE = Release\fractalmpi.exe
   TARGET_IMPLIB = Release\libfractalmpi.dll.a
-  TARGET_PDB = Release\fractalmpi.pdb
+  TARGET_PDB = fractalmpi.exe.dbg
   TARGET_SUPPORT_DIR = CMakeFiles\fractalmpi.dir
 
 build fractalmpi.exe$:Release: phony Release/fractalmpi.exe

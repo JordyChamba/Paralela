@@ -4,3 +4,8 @@
 44	445	8034032885107422	CMakeFiles/fractalmpi.dir/Debug/draw_text.cpp.obj	52cf054592246703
 36	1808	8034032885032432	CMakeFiles/fractalmpi.dir/Debug/main.cpp.obj	f9ed2d125317279a
 1810	4756	8034032902773370	Debug/fractalmpi.exe	375ea38bebda030c
+42	537	8039232419538153	CMakeFiles/fractalmpi.dir/Release/palette.cpp.obj	fb706738af6d3b48
+45	1094	8039232419558151	CMakeFiles/fractalmpi.dir/Release/draw_text.cpp.obj	8b20db318d8728c
+39	1153	8039232419508153	CMakeFiles/fractalmpi.dir/Release/fractal_mpi.cpp.obj	7e23312bc7143497
+36	4981	8039232419478105	CMakeFiles/fractalmpi.dir/Release/main.cpp.obj	3f6563543a448c7b
+4981	7178	8039232468916251	Release/fractalmpi.exe	cb4d8a3ef7650128

@@ -1,0 +1,4 @@
+# ninja log v7
+42	510	8051403921743216	CMakeFiles/cuda01.dir/Debug/main.cpp.obj	326ad02344d640fe
+46	1111	8051403921778394	CMakeFiles/cuda01.dir/Debug/kernel.cu.obj	b185bebcea478eff
+1112	2165	8051403932437513	Debug/cuda01.exe	2ce278988899bcce

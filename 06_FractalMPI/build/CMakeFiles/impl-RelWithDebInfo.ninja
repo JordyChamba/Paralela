@@ -51,8 +51,6 @@ build CMakeFiles/fractalmpi.dir/RelWithDebInfo/main.cpp.obj: CXX_COMPILER__fract
   INCLUDES = -Ic:/oneAPI/mpi/latest/include -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include
   OBJECT_DIR = CMakeFiles\fractalmpi.dir\RelWithDebInfo
   OBJECT_FILE_DIR = CMakeFiles\fractalmpi.dir\RelWithDebInfo
-  TARGET_COMPILE_PDB = CMakeFiles\fractalmpi.dir\RelWithDebInfo\
-  TARGET_PDB = RelWithDebInfo\fractalmpi.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\fractalmpi.dir
 
 build CMakeFiles/fractalmpi.dir/RelWithDebInfo/fractal_mpi.cpp.obj: CXX_COMPILER__fractalmpi_unscanned_RelWithDebInfo C$:/Users/fing.labcom/Music/Paralela/06_FractalMPI/fractal_mpi.cpp || cmake_object_order_depends_target_fractalmpi_RELWITHDEBINFO
@@ -63,8 +61,6 @@ build CMakeFiles/fractalmpi.dir/RelWithDebInfo/fractal_mpi.cpp.obj: CXX_COMPILER
   INCLUDES = -Ic:/oneAPI/mpi/latest/include -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include
   OBJECT_DIR = CMakeFiles\fractalmpi.dir\RelWithDebInfo
   OBJECT_FILE_DIR = CMakeFiles\fractalmpi.dir\RelWithDebInfo
-  TARGET_COMPILE_PDB = CMakeFiles\fractalmpi.dir\RelWithDebInfo\
-  TARGET_PDB = RelWithDebInfo\fractalmpi.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\fractalmpi.dir
 
 build CMakeFiles/fractalmpi.dir/RelWithDebInfo/palette.cpp.obj: CXX_COMPILER__fractalmpi_unscanned_RelWithDebInfo C$:/Users/fing.labcom/Music/Paralela/06_FractalMPI/palette.cpp || cmake_object_order_depends_target_fractalmpi_RELWITHDEBINFO
@@ -75,8 +71,6 @@ build CMakeFiles/fractalmpi.dir/RelWithDebInfo/palette.cpp.obj: CXX_COMPILER__fr
   INCLUDES = -Ic:/oneAPI/mpi/latest/include -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include
   OBJECT_DIR = CMakeFiles\fractalmpi.dir\RelWithDebInfo
   OBJECT_FILE_DIR = CMakeFiles\fractalmpi.dir\RelWithDebInfo
-  TARGET_COMPILE_PDB = CMakeFiles\fractalmpi.dir\RelWithDebInfo\
-  TARGET_PDB = RelWithDebInfo\fractalmpi.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\fractalmpi.dir
 
 build CMakeFiles/fractalmpi.dir/RelWithDebInfo/draw_text.cpp.obj: CXX_COMPILER__fractalmpi_unscanned_RelWithDebInfo C$:/Users/fing.labcom/Music/Paralela/06_FractalMPI/draw_text.cpp || cmake_object_order_depends_target_fractalmpi_RELWITHDEBINFO
@@ -87,8 +81,6 @@ build CMakeFiles/fractalmpi.dir/RelWithDebInfo/draw_text.cpp.obj: CXX_COMPILER__
   INCLUDES = -Ic:/oneAPI/mpi/latest/include -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include
   OBJECT_DIR = CMakeFiles\fractalmpi.dir\RelWithDebInfo
   OBJECT_FILE_DIR = CMakeFiles\fractalmpi.dir\RelWithDebInfo
-  TARGET_COMPILE_PDB = CMakeFiles\fractalmpi.dir\RelWithDebInfo\
-  TARGET_PDB = RelWithDebInfo\fractalmpi.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\fractalmpi.dir
 
 
@@ -106,10 +98,9 @@ build RelWithDebInfo/fractalmpi.exe: CXX_EXECUTABLE_LINKER__fractalmpi_RelWithDe
   OBJECT_DIR = CMakeFiles\fractalmpi.dir\RelWithDebInfo
   POST_BUILD = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\fing.labcom\Music\Paralela\06_FractalMPI\build && C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file c:/tools/vcpkg-2026.03.18/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Users/fing.labcom/Music/Paralela/06_FractalMPI/build/RelWithDebInfo/fractalmpi.exe -installedDir c:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/bin -OutVariable out"
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\fractalmpi.dir\RelWithDebInfo\
   TARGET_FILE = RelWithDebInfo\fractalmpi.exe
   TARGET_IMPLIB = RelWithDebInfo\libfractalmpi.dll.a
-  TARGET_PDB = RelWithDebInfo\fractalmpi.pdb
+  TARGET_PDB = fractalmpi.exe.dbg
   TARGET_SUPPORT_DIR = CMakeFiles\fractalmpi.dir
 
 build fractalmpi.exe$:RelWithDebInfo: phony RelWithDebInfo/fractalmpi.exe

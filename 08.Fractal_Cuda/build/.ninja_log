@@ -1,0 +1,9 @@
+# ninja log v7
+57	266	8052198203459176	CMakeFiles/cuda01.dir/Debug/palette.cpp.obj	cd71448ba64745a1
+53	1209	8052198203419195	CMakeFiles/cuda01.dir/Debug/kernel.cu.obj	8d2b57ad6876d80e
+48	985	8052198203369145	CMakeFiles/cuda01.dir/Debug/main.cpp.obj	c4f7f4a747084ead
+1209	2125	8052198214973268	Debug/cuda01.exe	d708d400aa70676
+32	240	8052201734804878	CMakeFiles/cuda01.dir/Debug/palette.cpp.obj	cd71448ba64745a1
+23	996	8052201734714193	CMakeFiles/cuda01.dir/Debug/main.cpp.obj	c4f7f4a747084ead
+27	1220	8052201734754817	CMakeFiles/cuda01.dir/Debug/kernel.cu.obj	8d2b57ad6876d80e
+1221	2386	8052201746697003	Debug/cuda01.exe	d708d400aa70676
